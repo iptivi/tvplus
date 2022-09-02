@@ -1035,6 +1035,8 @@ http://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8?cc
 #AUTO-----
 #EXTINF:-1 tvg-id="BumblebeeTVAutoMoto.us" tvg-logo="https://i.imgur.com/Se1a8Mm.png" group-title="🔵 AUTO",Bumblebee TV AutoMoto (720p)
 https://stitcheraws.unreel.me/wse-node01.powr.com/live/5bf220fad5eeee0f5a40941a/playlist.m3u8
+#EXTINF:-1 tvg-id="100AutoMotoTV.bg" tvg-logo="https://i.imgur.com/PjBm4Ic.jpg" group-title="🔵 AUTO",Auto Moto TV (406p)
+http://100automoto.tv:1935/bgtv1/autotv/playlist.m3u8
 #EXTINF:-1 tvg-id="PlutoTVFullCustomGarage.us" tvg-logo="https://images.pluto.tv/channels/5e78faa05a0e200007a6f487/colorLogoPNG.png" group-title="🔵 AUTO",Pluto TV Full Custom Garage (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5e78faa05a0e200007a6f487/master.m3u8
 #EXTINF:-1 tvg-id="BumblebeeTVMotorCyclist.us" tvg-logo="https://i.imgur.com/QIEhpPp.png" group-title="🔵 AUTO",Bumblebee TV MotorCyclist (1080p)
