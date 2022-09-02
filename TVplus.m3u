@@ -834,7 +834,7 @@ https://dl.dropboxusercontent.com/s/m2fp0v246769390/hls/planetearth/index.m3u8?c
 http://vips-livecdn.fptplay.net/hda2/animalplanet_vhls.smil/chunklist_b5000000.m3u8?cc
 #EXTINF:0  tvg-id="historyhd" group-title="🟣 KÊNH KHOA HỌC" tvg-logo="https://i.ibb.co/KspBRmJ/History-cc.png",History
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-#http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOX-HD-1080p/playlist.m3u8?cc
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOX-HD-1080p/playlist.m3u8?cc
 #EXTINF:0  tvg-id="discoveryhd" group-title="🟣 KÊNH KHOA HỌC", tvg-logo="https://i.ibb.co/xzpWHLm/Discovery-Channel.webp" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/discovery_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8?cc",Discovery Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://vips-livecdn.fptplay.net/hda2/discovery_vhls.smil/chunklist_b5000000.m3u8?cc
@@ -1032,8 +1032,13 @@ https://d3thiix3tzne5u.cloudfront.net/playlist2160p.m3u8?cc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 http://d2dw21aq0j0l5c.cloudfront.net/playlist_3840x2160.m3u8?cc
 
-
-
+#AUTO-----
+#EXTINF:-1 tvg-id="BumblebeeTVAutoMoto.us" tvg-logo="https://i.imgur.com/Se1a8Mm.png" group-title="🔵 AUTO",Bumblebee TV AutoMoto (720p)
+https://stitcheraws.unreel.me/wse-node01.powr.com/live/5bf220fad5eeee0f5a40941a/playlist.m3u8
+#EXTINF:-1 tvg-id="PlutoTVFullCustomGarage.us" tvg-logo="https://images.pluto.tv/channels/5e78faa05a0e200007a6f487/colorLogoPNG.png" group-title="🔵 AUTO",Pluto TV Full Custom Garage (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5e78faa05a0e200007a6f487/master.m3u8
+#EXTINF:-1 tvg-id="BumblebeeTVMotorCyclist.us" tvg-logo="https://i.imgur.com/QIEhpPp.png" group-title="🔵 AUTO",Bumblebee TV MotorCyclist (1080p)
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5bf2218bd5eeee0f5a40941b/playlist.m3u8
 
 #KÊNH THIẾU NHI-----
 #EXTINF:0 group-title="🔴| KÊNH THIẾU NHI" tvg-logo="https://dl.dropboxusercontent.com/s/lslvqe41s8j7itv/PBS",PBS Kids
@@ -1065,5 +1070,3 @@ https://vips-livecdn.fptplay.net/hda2/davincihd_vhls.smil/chunklist_b5000000.m3u
 #EXTINF:0 tvg-id="happykids" type="stream" group-title="🔴| KÊNH THIẾU NHI" tvg-logo="https://i.ibb.co/72jD6nC/Happy-Kids-cc.webp",Happy Kids ᴴᴰ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 #https://dl.dropboxusercontent.com/s/eveow7k4qg4fwv0/
-
-
