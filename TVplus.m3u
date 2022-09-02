@@ -448,30 +448,30 @@ https://livecdn.fptplay.net/hda1/htv7hd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htv9hd" tvg-logo="https://i.ibb.co/KF1hdQD/htv9.webp" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/htv9hd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",HTV9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
 https://livecdn.fptplay.net/hda1/htv9hd_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htvthethaohd" tvg-logo="https://i.ibb.co/Y8mr4Hf/HTV-TT.png" catchup="append" catchup-days="2" catchup-source="https://tbientv.xyz/channel/dvr?htvtt&t=${start}-${offset}",HTV Thá»ƒ Thao
+#EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htvthethaohd" tvg-logo="https://i.ibb.co/Y8mr4Hf/HTV-TT.png" catchup="append" catchup-days="2" catchup-source="https://tbientv.xyz/channel/dvr?htvtt&t=${start}-${offset}",HTV Thể Thao
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
 https://vips-livecdn.fptplay.net/hda3/htvcthethao_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htvthethaohd" tvg-logo="https://i.ibb.co/Y8mr4Hf/HTV-TT.png" catchup="append" catchup-days="2" catchup-source="https://tbientv.xyz/channel/dvr?htvtt&t=${start}-${offset}",HTV Thá»ƒ Thao (FPTOnly)
+#EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htvthethaohd" tvg-logo="https://i.ibb.co/Y8mr4Hf/HTV-TT.png" catchup="append" catchup-days="2" catchup-source="https://tbientv.xyz/channel/dvr?htvtt&t=${start}-${offset}",HTV Thể Thao (FPTOnly)
 udp://@225.1.1.165:30120
 #EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htvcphimhd" tvg-logo="https://i.ibb.co/6BcjWb8/HTVC-PHIM.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/htvcmovieshd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",HTVC Phim
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
 https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVC-PHIM-HD-1080p/chunks.m3u8
-#EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htvccanhachd" tvg-logo="https://i.ibb.co/gwFXPvh/HTVC-CANHAC.png" catchup="append" catchup-days="2" catchup-source="https://tbientv.xyz/channel/dvr?htvcn&t=${start}-${offset}",HTVC Ca Nháº¡c
+#EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htvccanhachd" tvg-logo="https://i.ibb.co/gwFXPvh/HTVC-CANHAC.png" catchup="append" catchup-days="2" catchup-source="https://tbientv.xyz/channel/dvr?htvcn&t=${start}-${offset}",HTVC Ca Nhạc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
 https://drm-livecdn.hplus.com.vn/CDN-FPT02/HTVC-CANHAC-HD-1080p/chunks.m3u8
-#EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htvcgiadinhhd" tvg-logo="https://i.ibb.co/2Whh11Y/HTVC-GIADINH.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/htvcgiadinh_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",HTVC Gia ÄÃ¬nh
+#EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htvcgiadinhhd" tvg-logo="https://i.ibb.co/2Whh11Y/HTVC-GIADINH.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/htvcgiadinh_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",HTVC Gia Đình
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
 https://vips-livecdn.fptplay.net/hda3/htvcgiadinh_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htvcdulichhd" tvg-logo="https://i.ibb.co/n0r0WJh/HTVC-DLCS.png" catchup="append" catchup-days="2" catchup-source="https://tbientv.xyz/channel/dvr?htvdlcs&t=${start}-${offset}",HTVC Du Lá»‹ch & Cuá»™c sá»‘ng
+#EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htvcdulichhd" tvg-logo="https://i.ibb.co/n0r0WJh/HTVC-DLCS.png" catchup="append" catchup-days="2" catchup-source="https://tbientv.xyz/channel/dvr?htvdlcs&t=${start}-${offset}",HTVC Du Lịch & Cuộc Sống
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
 https://vips-livecdn.fptplay.net/hda3/htvcdulich_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htvcphunuhd" tvg-logo="https://i.ibb.co/TvZCS24/HTVC-PHUNU.png" catchup="append" catchup-days="2" catchup-source="https://tbientv.xyz/channel/dvr?htvpn&t=${start}-${offset}",HTVC Phá»¥ Ná»¯ 
+#EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htvcphunuhd" tvg-logo="https://i.ibb.co/TvZCS24/HTVC-PHUNU.png" catchup="append" catchup-days="2" catchup-source="https://tbientv.xyz/channel/dvr?htvpn&t=${start}-${offset}",HTVC Phụ Nữ 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
 https://vips-livecdn.fptplay.net/hda3/htvcphunu_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htvcthuanviet" tvg-logo="https://i.ibb.co/y86D94g/thuanviet.webp" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/htvcthuanviet_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", HTVC Thuáº§n Viá»‡t
+#EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htvcthuanviet" tvg-logo="https://i.ibb.co/y86D94g/thuanviet.webp" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/htvcthuanviet_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", HTVC Thuần Việt
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
 https://vips-livecdn.fptplay.net/hda3/htvcthuanviet_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htvcthuanviethd" tvg-logo="https://i.ibb.co/K7wpKxm/HTVC-THUANVIETHD.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/htvcthuanviethd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",HTVC Thuáº§n Viá»‡t HD
+#EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htvcthuanviethd" tvg-logo="https://i.ibb.co/K7wpKxm/HTVC-THUANVIETHD.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/htvcthuanviethd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8",HTVC Thuần Việt HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
 https://vips-livecdn.fptplay.net/hda1/htvcthuanviethd_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 group-title="🟠 ĐỊA PHƯƠNG" tvg-id="htvcplushd" tvg-logo="https://i.ibb.co/G2b64qY/HTVC-PLUS.png" catchup="append" catchup-days="2" catchup-source=" catchup="append" catchup-days="2" catchup-source="https://tbientv.xyz/channel/?vplus&t=${start}-${offset}",HTVC Plus
