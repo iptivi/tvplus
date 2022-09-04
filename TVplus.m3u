@@ -3,23 +3,27 @@
 #EXTM3U Muideu - linhtmoct@gmail.com!
 
 #-----------------------------------------------------------------------
-#K+-----
+# ==============K+====================
 #EXTINF:-1 tvg-id="Kcinehd" group-title="🟣 K+" tvg-logo="https://i.imgur.com/H28zPSm.jpg", K+CINE HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=2a6dc5b7e9c24a7396fd6a8926e01b20&key=0048701f074e501648b6758eb254e8bd
 https://sglive.akamaized.net/bpk-tv/prod_kplus_cinehd/default/index.mpd
+
 #EXTINF:-1 tvg-id="Klifehd" group-title="🟣 K+" tvg-logo="https://i.imgur.com/PPpEIBP.png", K+LIFE HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=7938d1baaf98461a9fbccfc173a3a96d&key=071e9075c543eb6b2fe18260fca282b0
 https://sglive.akamaized.net/bpk-tv/prod_kplus_lifehd/default/index.mpd
+
 #EXTINF:-1 tvg-id="Ksport1hd" group-title="🟣 K+" tvg-logo="https://i.imgur.com/0wjvLz2.png", K+SPORT1 HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=906e9041a9a147bd82acfcf8ed79e223&key=4fc131916459580a4b74f77ff79c6911
 https://sglive.akamaized.net/bpk-tv/prod_kplus_sport1hd/default/index.mpd
+
 #EXTINF:-1 tvg-id="Ksport2hd" group-title=🟣 K+" tvg-logo="https://i.imgur.com/sxWq2PE.png", K+SPORT2 HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=55f943b35444428090b5578789ebb813&key=a5219b6d6b8d0914ec6bf27cffd3bbaa
 https://sglive.akamaized.net/bpk-tv/prod_kplus_sport2hd/default/index.mpd
+
 #EXTINF:-1 tvg-id="kkidshd" group-title="🟣 K+" tvg-logo="https://i.imgur.com/vEztTNK.png", K+ Kids HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=d36f3ca0ceb44a0881a34876a7bd2e68&key=94b553e8ddc197ac29e87a65559703cb
@@ -49,7 +53,7 @@ http://s2129134.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv373&offset=1
 
 #-*--TV360K+-*--#
 
-#EXTINF:-1 tvg-id="Kcinehd" group-title="Khích TV PLUS K+ TV360" tvg-logo="https://i.ytimg.com/vi/O19jBXxMN2U/hqdefault.jpg", K+CINE 
+#EXTINF:-1 tvg-id="Kcinehd" group-title="🟣 K+" tvg-logo="https://i.ytimg.com/vi/O19jBXxMN2U/hqdefault.jpg", K+CINE 360
 
 #KODIPROP:inputstream.adaptive.manifest_type=mpd 
 
@@ -59,7 +63,8 @@ http://s2129134.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv373&offset=1
 
 http://live.tv360.vn/manifest/K_PLUS_1_SD/master.mpd?hdnts=exp=1652706117~acl=/*~hmac=8a5ce493cf33c5e231797a2f75ec8c2df66def24319ae268b2655e3799760ed4
 
-#EXTINF:-1 tvg-id="Klifehd" group-title="Khích TV PLUS K+ TV360" tvg-logo="https://i.ytimg.com/vi/hfHGp6p5mGs/hqdefault.jpg?", K+LIFE
+
+#EXTINF:-1 tvg-id="Klifehd" group-title="🟣 K+" tvg-logo="https://i.ytimg.com/vi/hfHGp6p5mGs/hqdefault.jpg?", K+LIFE 360
 
 #KODIPROP:inputstream.adaptive.manifest_type=mpd 
 
@@ -69,7 +74,8 @@ http://live.tv360.vn/manifest/K_PLUS_1_SD/master.mpd?hdnts=exp=1652706117~acl=/*
 
 http://live.tv360.vn/manifest/K_PLUS_NS_SD/master.mpd?hdnts=exp=1652706117~acl=/*~hmac=8a5ce493cf33c5e231797a2f75ec8c2df66def24319ae268b2655e3799760ed4
 
-#EXTINF:-1 tvg-id="Ksport1hd" group-title="Khích TV PLUS K+ TV360" tvg-logo="https://i.ytimg.com/vi/t7ReQ2V32_Y/hqdefault.jpg",K+SPORT1 
+
+#EXTINF:-1 tvg-id="Ksport1hd" group-title="🟣 K+" tvg-logo="https://i.ytimg.com/vi/t7ReQ2V32_Y/hqdefault.jpg",K+SPORT1 360
 
 #KODIPROP:inputstream.adaptive.manifest_type=mpd 
 
@@ -79,7 +85,8 @@ http://live.tv360.vn/manifest/K_PLUS_NS_SD/master.mpd?hdnts=exp=1652706117~acl=/
 
 http://live.tv360.vn/manifest/K_PLUS_PM_SD/master.mpd?hdnts=exp=1652706118~acl=/*~hmac=6138509dfc2c9be96ed2cdcc6ef34a728031ca0ec79d3052c7ba388d7c92a105
 
-#EXTINF:-1 tvg-id="Ksport2hd" group-title=Khích TV PLUS K+ TV360" tvg-logo="https://i.ytimg.com/vi/Kmb9wmDcjKo/hqdefault.jpg?",K+SPORT2
+
+#EXTINF:-1 tvg-id="Ksport2hd" group-title=🟣 K+" tvg-logo="https://i.ytimg.com/vi/Kmb9wmDcjKo/hqdefault.jpg?",K+SPORT2 360
 
 #KODIPROP:inputstream.adaptive.manifest_type=mpd 
 
@@ -88,7 +95,7 @@ http://live.tv360.vn/manifest/K_PLUS_PM_SD/master.mpd?hdnts=exp=1652706118~acl=/
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=f3bfadc4cf9e47f49d74b067a7863b1c&key=5db9686ccc26471fd9ecd08775e56907 
 
 
-#-----------------------------------------------------------------------
+#=======================================================================
 #VTV-----
 #EXTINF:-1 tvg-id="vtv1hd" group-title="🟢 VTV" tvg-logo="https://i.ibb.co/ySDjzg0/VTV1-cc.webp"  catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/vtv1hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8?cc",VTV1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
