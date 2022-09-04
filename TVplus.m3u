@@ -902,14 +902,14 @@ http://vips-livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b5000000.m3u8?
 https://vips-livecdn.fptplay.net/hda1/kixhd_vhls.smil/chunklist_b5000000.m3u8?cc
 #EXTINF:0 tvg-id="inthebox" group-title="🟢 KÊNH PHIM" tvg-logo="https://i.ibb.co/YLf4nyS/ccbox.jpg",BOX Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://dl.dropboxusercontent.com/s/vee7zsr0i4n5zq0/												
+https://tbientv.xyz/channel/?1662656400bc972a67c48192728a34979d9a35164c1295401b71/m3u8										
 #EXTINF:0 tvg-id="boxhits" group-title="🟢 KÊNH PHIM" tvg-logo="https://i.ibb.co/7JmsKpz/cchits.jpg",BOX Hits
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://dl.dropboxusercontent.com/s/lebjoxjk0lu68pw/													
+https://tbientv.xyz/channel/?1662656400bh972a67c48192728a34979d9a35164c1295401b71/m3u8										
 #EXTINF:0 tvg-id="boxmovie1" type="stream" group-title="🟢 KÊNH PHIM" tvg-logo="https://i.ibb.co/8x8SKrw/ccmovie.png",BOX Movie¹
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 #EXTVLCOPT:http-referer=https://sctvonline.vn/
-https://dl.dropboxusercontent.com/s/u607615uzi4ynmy/hls/boxmovie1/index.m3u8?cc|Referer=http://sctvonline.vn/
+https://tbientv.xyz/channel/?1662656400b972a67c48192728a34979d9a35164c1295401b71/m3u8
 #EXTINF:0 tvg-id="hollywoodclassics" type="stream" group-title="🟢 KÊNH PHIM" tvg-logo="https://i.ibb.co/QNnMJ1h/ccholly.jpg",HLW Classics
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 #EXTVLCOPT:http-referer=https://sctvonline.vn/
