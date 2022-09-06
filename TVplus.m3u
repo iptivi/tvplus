@@ -698,36 +698,36 @@ https://livecdn.fptplay.net/sdc/bariavungtau_hls.smil/chunklist_b2800000.m3u8?cc
 https://yenbaitv.org.vn/hls/livestream.m3u8?cc
 
 #=============KÊNH THỂ THAO===============
-#EXTINF:0 tvg-id="vtvcab3hd" type="stream" group-title="🟡 VTVcab" tvg-logo="https://i.ibb.co/MMTgFmm/cccab3.png",VTVcab3
+#EXTINF:0 tvg-id="vtvcab3hd" type="stream" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/MMTgFmm/cccab3.png",VTVcab3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 #https://s.id/cccab3|Referer=http://sctvonline.vn/
 https://dl.dropboxusercontent.com/s/01umyyk8l763njs/hls/vtvcab3/index.m3u8?cc|Referer=http://sctvonline.vn/
 
-#EXTINF:0 tvg-id="vtvcab6hd" type="stream" group-title="🟡 VTVcab" tvg-logo="https://i.ibb.co/37hkhwk/VCab6-cc.webp",VTVcab6
+#EXTINF:0 tvg-id="vtvcab6hd" type="stream" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/37hkhwk/VCab6-cc.webp",VTVcab6
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 #https://s.id/cccab6|Referer=http://sctvonline.vn/
 https://dl.dropboxusercontent.com/s/qd1989satabwya0/							
 
-#EXTINF:0 tvg-id="vtvcab16hd" type="stream" group-title="🟡 VTVcab" tvg-logo="https://i.ibb.co/jWGtxGc/cccab16.png",VTVcab16
+#EXTINF:0 tvg-id="vtvcab16hd" type="stream" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/jWGtxGc/cccab16.png",VTVcab16
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 #https://s.id/cccab16
 https://dl.dropboxusercontent.com/s/31ycgw76iiq2sz0/hls/vtvcab16/sd2/index.m3u8?cc|Referer=http://sctvonline.vn/
 
-#EXTINF:0 tvg-id="vtvcab18hd" type="stream" group-title="🟡 VTVcab" tvg-logo="https://i.ibb.co/hXrdYRW/cccab18.png",VTVcab18
+#EXTINF:0 tvg-id="vtvcab18hd" type="stream" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/hXrdYRW/cccab18.png",VTVcab18
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 #https://s.id/cccab18|Referer=http://sctvonline.vn/
 #https://dl.dropboxusercontent.com/s/1uyh4yeu6fzokkj/													
 
-#EXTINF:0 tvg-id="vtvcab23hd" type="stream" group-title="🟡 VTVcab" tvg-logo="https://i.ibb.co/r7tFs8D/cccab23.png",VTVcab23
+#EXTINF:0 tvg-id="vtvcab23hd" type="stream" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/r7tFs8D/cccab23.png",VTVcab23
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 #https://dl.dropboxusercontent.com/s/uqsrityep8yiaxi/																						 ㅤ
 #https://s.id/cccab23
 
-#EXTINF:0 tvg-id="" type="stream" group-title="🟡 VTVcab" tvg-logo="https://i.ibb.co/VmMz7md/cccab23.png",Golf News
+#EXTINF:0 tvg-id="" type="stream" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/VmMz7md/cccab23.png",Golf News
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://884030f97a.vws.vegacdn.vn/live/_definst_/stream_1_a0acb/chunklist.m3u8?cc
 
-#EXTINF:0 tvg-id="" type="stream" group-title="🟡 VTVcab" tvg-logo="https://i.ibb.co/PYbZ8bs/ongolf-eng.webp",ON Golf Eng
+#EXTINF:0 tvg-id="" type="stream" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/PYbZ8bs/ongolf-eng.webp",ON Golf Eng
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://onsportlive.vtvcab.vn/hls/ONGOLFTA_CL/04.m3u8?cc
 
