@@ -764,31 +764,12 @@ http://vips-livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b5000000.m3u8?
 #EXTINF:0 tvg-id="kix" group-title="🟢 KÊNH PHIM" tvg-logo="https://i.ibb.co/vJk5WPN/kix.webp" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/kixhd_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8?cc",KIX
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://vips-livecdn.fptplay.net/hda1/kixhd_vhls.smil/chunklist_b5000000.m3u8?cc
-#EXTINF:0 tvg-id="inthebox" group-title="🟢 KÊNH PHIM" tvg-logo="https://i.ibb.co/YLf4nyS/ccbox.jpg",BOX Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://..............................									
-#EXTINF:0 tvg-id="boxhits" group-title="🟢 KÊNH PHIM" tvg-logo="https://i.ibb.co/7JmsKpz/cchits.jpg",BOX Hits
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://...............................								
-#EXTINF:0 tvg-id="boxmovie1" type="stream" group-title="🟢 KÊNH PHIM" tvg-logo="https://i.ibb.co/8x8SKrw/ccmovie.png",BOX Movie¹
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-#EXTVLCOPT:http-referer=https://sctvonline.vn/
-https://.......................
 #EXTINF:0 tvg-id="hollywoodclassics" type="stream" group-title="🟢 KÊNH PHIM" tvg-logo="https://i.ibb.co/QNnMJ1h/ccholly.jpg",HLW Classics
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 #EXTVLCOPT:http-referer=https://sctvonline.vn/
 #EXTINF:0  tvg-id="paramouthd" group-title="🟢 KÊNH PHIM" tvg-logo="https://i.ibb.co/n0FqTt8/Paramount-cc.png",Paramount
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://dl.dropboxusercontent.com/s/tfmg6lkvm7reoq9/%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%09%20%E3%85%A4
-#EXTINF:0 tvg-id="inthebox" group-title="🟢 KÊNH PHIM" tvg-logo="https://i.ibb.co/tQTc0r0/Box-Channel-cc.webp",BOX Channel ᴴᴰ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-#https://dl.dropboxusercontent.com/s/ugnt4jz9pblp3zt/													
-#EXTINF:0 tvg-id="boxhits" group-title="🟢 KÊNH PHIM" tvg-logo="https://i.ibb.co/JsQ2W4Q/Box-Hits-cc.webp",BOX Hits ᴴᴰ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-#https://dl.dropboxusercontent.com/s/k8af1u02lthvy8s/													
-#EXTINF:0 tvg-id="boxmovie1" type="stream" group-title="🟢 KÊNH PHIM" tvg-logo="https://i.ibb.co/m84rscz/Box-Movie1-cc.webp",BOX Movie¹ ᴴᴰ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-#https://dl.dropboxusercontent.com/s/yn6tsp3xwce21l3/													
 #EXTINF:0 tvg-id="hollywoodclassics" type="stream" group-title="🟢 KÊNH PHIM" tvg-logo="https://i.ibb.co/vLLJPWZ/cchollywood.webp",HLW Classics ᴴᴰ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 #https://dl.dropboxusercontent.com/s/ndmolaajwi57rj5/
@@ -837,9 +818,6 @@ http://vips-livecdn.fptplay.net/hda2/animalplanet_vhls.smil/chunklist_b5000000.m
 #EXTINF:0  tvg-id="bbcearth" group-title="🟣 KÊNH KHOA HỌC", tvg-logo="https://i.ibb.co/bWMMncB/bbcearth-cc.png" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/bbcearth_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8?cc",BBC Earth
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 http://vips-livecdn.fptplay.net/hda2/bbcearth_vhls.smil/chunklist_b5000000.m3u8?cc
-#EXTINF:0  tvg-id="historyhd" group-title="🟣 KÊNH KHOA HỌC" tvg-logo="https://i.ibb.co/KspBRmJ/History-cc.png",History
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOX-HD-1080p/playlist.m3u8?cc
 #EXTINF:0  tvg-id="discoveryhd" group-title="🟣 KÊNH KHOA HỌC", tvg-logo="https://i.ibb.co/xzpWHLm/Discovery-Channel.webp" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/discovery_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8?cc",Discovery Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://vips-livecdn.fptplay.net/hda2/discovery_vhls.smil/chunklist_b5000000.m3u8?cc
