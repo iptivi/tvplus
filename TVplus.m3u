@@ -697,6 +697,32 @@ https://livecdn.fptplay.net/sdc/bariavungtau_hls.smil/chunklist_b2800000.m3u8?cc
 https://yenbaitv.org.vn/hls/livestream.m3u8?cc
 
 #=============KÊNH THỂ THAO===============
+#EXTINF:-1 tvg-id="vtvcab3hd" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://cdn.hqth.me/logo/thumbs/14.png", ON Sports HD
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=NzRlYjIwNjMtMjkwZS0zMTY5LTg0ZDMtZGE1ZjRkNTRmMjVj
+http://s2129134.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv264&offset=1
+
+#EXTINF:-1 tvg-id="vtvcab6hd" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://cdn.hqth.me/logo/thumbs/17.png", ON Sports+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=NzRlYjIwNjMtMjkwZS0zMTY5LTg0ZDMtZGE1ZjRkNTRmMjVj
+http://s2129134.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv311&offset=1
+
+#EXTINF:-1 tvg-id="vtvcab16hd" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://cdn.hqth.me/logo/thumbs/24.png", ON Football HD
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=NzRlYjIwNjMtMjkwZS0zMTY5LTg0ZDMtZGE1ZjRkNTRmMjVj
+http://s2129134.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv265&offset=1
+
+#EXTINF:-1 tvg-id="vtvcab18hd" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://cdn.hqth.me/logo/thumbs/26.png", ON Sports News
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=NzRlYjIwNjMtMjkwZS0zMTY5LTg0ZDMtZGE1ZjRkNTRmMjVj
+http://s2129134.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv496&offset=1
+
+#EXTINF:-1 tvg-id="vtvcab23hd" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://cdn.hqth.me/logo/thumbs/31.png", ON Golf
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://apivmx.mytvnet.vn/tv/license/widevine?vmx_device_id=NzRlYjIwNjMtMjkwZS0zMTY5LTg0ZDMtZGE1ZjRkNTRmMjVj
+http://s2129134.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv485&offset=1
+
+------------------
 #EXTINF:0 tvg-id="vtvcab3hd" type="stream" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/MMTgFmm/cccab3.png",VTVcab3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 #https://s.id/cccab3|Referer=http://sctvonline.vn/
@@ -719,6 +745,7 @@ https://dl.dropboxusercontent.com/s/31ycgw76iiq2sz0/hls/vtvcab16/sd2/index.m3u8?
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 #https://dl.dropboxusercontent.com/s/uqsrityep8yiaxi/																						 ㅤ
 #https://s.id/cccab23
+------------
 
 #EXTINF:0 tvg-id="" type="stream" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/VmMz7md/cccab23.png",Golf News
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
