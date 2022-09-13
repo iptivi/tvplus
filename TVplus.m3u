@@ -702,14 +702,8 @@ https://yenbaitv.org.vn/hls/livestream.m3u8?cc
 #https://s.id/cccab3|Referer=http://sctvonline.vn/
 https://dl.dropboxusercontent.com/s/01umyyk8l763njs/hls/vtvcab3/index.m3u8?cc|Referer=http://sctvonline.vn/
 
-#EXTINF:-1 group-title="🟡 KÊNH THỂ THAO" tvg-id="vtvcab16hd" tvg-logo="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/08/02/0bnxnrqy_microsoftteams-image154e078675f4be15c4917a6f3954f6c0800_296_168.webp", VTVcab16 | On Football HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44
-https://tinyurl.com/khichTiViVTVcab16
-
-#EXTINF:0 tvg-id="vtvcab6hd" type="stream" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/37hkhwk/VCab6-cc.webp",VTVcab6
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-#https://s.id/cccab6|Referer=http://sctvonline.vn/
-https://dl.dropboxusercontent.com/s/qd1989satabwya0/							
+#EXTINF:-1 group-title="🟡 KÊNH THỂ THAO" tvg-id="vtvcab6hd" tvg-logo="https://i.ibb.co/DzBRYMz/VTVCAB6.png", VTVcab6 | On Sports+ HD
+https://api.vthanhtivi.pw/v1/getlink/vtvgo/196							
 
 #EXTINF:0 tvg-id="vtvcab16hd" type="stream" group-title="🟡 KÊNH THỂ THAO" tvg-logo="https://i.ibb.co/jWGtxGc/cccab16.png",VTVcab16
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
