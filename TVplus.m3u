@@ -432,8 +432,13 @@ https://stream.sugustv.tk:443/live/2E07839D24B4C586D36B176D48B4F648/68.ts
 https://stream.sugustv.tk:443/live/2E07839D24B4C586D36B176D48B4F648/69.ts
 #EXTINF:-1 xui-id="70" tvg-id="ESPNHDE" tvg-name="BT Sport ESPN" tvg-logo="https://stream.sugustv.tk:443/images/guDhMh-txtQMOxE86BPbpTrBIBflP3lzDPdBaWgXJ9c2Ujf4oU2wwwUWPzpvmJEG53ipaRkn9EOJY3qb6l8alg.png" group-title="🟡 KÊNH THỂ THAO",BT Sport ESPN
 https://stream.sugustv.tk:443/live/2E07839D24B4C586D36B176D48B4F648/70.ts
-#EXTINF:-1 xui-id="247" tvg-id="beINSports.qa" tvg-name="beIN Sports HD" tvg-logo="https://stream.sugustv.tk:443/images/qBTBBplw7KneB3R2TSwgvJnfWcIHFA4g9WEG9rn5y6qO7me_aQOEFW7m2bM5QPROpAUr5pMLIIpkKFfbEOfICg.png" group-title="🟡 KÊNH THỂ THAO",beIN Sports HD
-https://stream.sugustv.tk:443/live/2E07839D24B4C586D36B176D48B4F648/247.m3u8
+#EXTINF:-1 tvg-ID="beINSport1.fr" tvg-name="FR:* Bein Sports 1 FHD" tvg-logo="" group-title="🟡 KÊNH THỂ THAO", Bein Sports 1 FHD
+http://222.254.63.218:8889/iprotv.php?id=10245
+#EXTINF:-1 tvg-ID="beINSport2.fr" tvg-name="FR:* Bein Sports 2 FHD" tvg-logo="" group-title="🟡 KÊNH THỂ THAO", Bein Sports 2 FHD
+http://222.254.63.218:8889/iprotv.php?id=10246
+#EXTINF:-1 tvg-ID="beINSport3.fr" tvg-name="FR:* Bein Sports 3 FHD" tvg-logo="" group-title="🟡 KÊNH THỂ THAO", Bein Sports 3 FHD
+http://222.254.63.218:8889/iprotv.php?id=2590
+
 
 #=============KÊNH PHIM=================
 #EXTINF:-1 tvg-id="boxmovie1" group-title="🟢 KÊNH PHIM" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie
