@@ -1,5 +1,4 @@
 #EXTM3U url-tvg="http://onetv.click/schedule/epg.xml,http://trada.info/epg.xml,http://live-sg.cvacetv.ga:8080/xmltv/channels,http://live-vn.cvacetv.ga:8880/xmltv/channels, http://live-eu.cvacetv.ga:8080/xmltv/channels,http://live-vn.cvacetv.ga:9981/xmltv/channels" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=1
-#linhTM
 
 ===========K+ HD==============
 #EXTINF:-1 tvg-id="Kcinehd" group-title="🟣 K+" tvg-logo="https://i.imgur.com/H28zPSm.jpg", K+CINE HD
@@ -351,7 +350,8 @@ https://vips-livecdn.fptplay.net/hda1/quochoivn_vhls.smil/chunklist_b5000000.m3u
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://vips-livecdn.fptplay.net/sdc/truyenhinhnhandan_hls.smil/chunklist_b2500000.m3u8?cc
 
-#EXTINF:0 tvg-id="vovtvhd"group-title="⭕ KÊNH BÁO CHÍ" tvg-logo="https://i.ibb.co/tY8jbSB/VOV-cc.webp",VOV TV
+#EXTINF:0 tvg-id="nhandan"  group-title="⭕ KÊNH BÁO CHÍ" tvg-logo="https://i.ibb.co/RhrbpSR/Nhan-Dan-cc.webp",VOV TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 http://cdn.vovtv.mediatech.vn/vovlive/tv1live.m3u8
 
 #EXTINF:0 tvg-id="ttxvnhd"  group-title="⭕ KÊNH BÁO CHÍ" tvg-logo="https://i.ibb.co/7trfq2x/V-NEWS.png",V.News TV
@@ -361,16 +361,16 @@ http://vips-livecdn.fptplay.net/hda2/ttxvn_vhls.smil/chunklist_b5000000.m3u8?cc
 #=============KÊNH PHIM=================
 
 #EXTINF:-1 tvg-id="boxmovie1" group-title="🟢 KÊNH PHIM" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie
-http://live.vthanhtivi.pw:8081/boxmovie1/index.m3u8
+https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/boxmovie1
 
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="🟢 KÊNH PHIM" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics
-http://live.vthanhtivi.pw:8081/hollywood/index.m3u8
+https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/hollywoodclassics
 
 #EXTINF:-1 tvg-id="inthebox" group-title="🟢 KÊNH PHIM" tvg-logo="https://cdn.hqth.me/logo/thumbs/189.png", In The Box
 http://live.vthanhtivi.pw:8081/inthebox/index.m3u8
 
 #EXTINF:-1 tvg-id="boxhits" group-title="🟢 KÊNH PHIM" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", Box Hits
-http://live.television4you.xyz/boxhits/mpegts
+https://tbientv.xyz/channel/?1665334800bhaf3e133428b9e25c55bc59fe534248e6a0c0f17b/m3u8
 
 #EXTINF:0 tvg-id="hbohd" group-title="🟢 KÊNH PHIM" tvg-logo="https://i.ibb.co/3Bt20YR/HBO-cc.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/hbo_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",HBO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
@@ -665,6 +665,10 @@ http://186.0.233.76:1935/Garage/smil:garage.smil/master.m3u8
 #EXTINF:-1 tvg-id="AutoMotorundSport.de" tvg-logo="https://i.imgur.com/SbCaP6F.png" group-title="🔵 AUTO",Pluto TV Auto Motor Sport (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f760c3d41aa2d0007bfde19/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5f760c3d41aa2d0007bfde19&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=c676a4b5-65d2-474a-b477-c04f8b88e727&terminate=false&userId=
 
+#EXTINF:-1 tvg-id="MotorvisionTV.de" tvg-logo="https://i.imgur.com/QDZrBDi.png" group-title="🔵 AUTO",Motorvision TV (720p)
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60817e1aa6997500072d0d6d/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=35fc51b0-e986-11eb-a0af-c3b401f46211&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=ede55dfe-45a7-4aa8-a283-7b8008be8d2e
+
+
 #================= MUZIC ===============
 #EXTINF:-1 group-title="🟤 MUZIC" tvg-logo="http://linear-poster.astro.com.my/prod/logo/MTV_v2.png",MTV Poland
 http://live-sg.cvacetv.ga/MTV
@@ -681,6 +685,12 @@ http://live-sg.cvacetv.ga/TraceUrban
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
 https://liveanevia.mncnow.id/live/eds/tvN/sa_dash_vmx/tvN.mpd
+
+#EXTINF:-1 tvg-id="Wanasah.ae" tvg-logo="https://i.imgur.com/GmgibYW.jpg" group-title="🟤 MUZIC",Wanasah (1080p)
+https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8
+
+#EXTINF:-1 tvg-id="PMC.ae" tvg-logo="https://i.imgur.com/o8vx6FG.png" group-title="🟤 MUZIC",PMC (1080p)
+https://hls.pmchd.live/hls/stream.m3u8
 
 #==============ĐỊA PHƯƠNG=================
 #EXTINF:-1 tvg-id="hanoi1" group-title="🟠 ĐỊA PHƯƠNG" tvg-logo="https://cdn.hqth.me/logo/thumbs/141.png", HanoiTV1 HD
@@ -721,7 +731,7 @@ https://livecdn.fptplay.net/hda3/vinhlong4hd_hls.smil/chunklist_b2500000.m3u8?cc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://livecdn.fptplay.net/sda/angiang_1000.stream/chunklist.m3u8?cc
 #EXTINF:0 tvg-id="baclieu" group-title="🟠 ĐỊA PHƯƠNG" tvg-logo="https://i.ibb.co/prKmHxt/Bac-Lieu-cc.webp",Bạc Liêu
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows N; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 https://livecdn.fptplay.net/sdc/baclieu_hls.smil/chunklist_b2800000.m3u8?cc
 
 #EXTINF:-1 tvg-id="bacgiang" group-title="🟠 ĐỊA PHƯƠNG" tvg-logo="https://cdn.hqth.me/logo/thumbs/109.png", Bắc Giang
@@ -1046,16 +1056,6 @@ https://vips-livecdn.fptplay.net/hdevent/fsport10_vhls.smil/chunklist_b5000000.m
 
 /////////////////////////////////////////////////////////
 
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS NEWS HD" tvg-logo="" group-title="➡️ BEIN SPORTS",BEIN SPORTS NEWS HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/68682
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Premium 1 FHD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS Premium 1 FHD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101931
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Premium 2 FHD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS Premium 2 FHD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101929
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports Premium 3 FHD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN Sports Premium 3 FHD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/117116
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Premium 3 FHD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS Premium 3 FHD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101930
 #EXTINF:-1 tvg-id="" tvg-name="beIN SPORT FHD 1" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORT FHD 1
 http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/90154
 #EXTINF:-1 tvg-id="" tvg-name="beIN SPORT FHD 2" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORT FHD 2
@@ -1070,6 +1070,16 @@ http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/90158
 http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/90159
 #EXTINF:-1 tvg-id="" tvg-name="beIN SPORT FHD 7" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORT FHD 7
 http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/90160
+
+#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS NEWS HD" tvg-logo="" group-title="➡️ BEIN SPORTS",BEIN SPORTS NEWS HD
+http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/68682
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Premium 1 FHD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS Premium 1 FHD
+http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101931
+#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Premium 2 FHD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS Premium 2 FHD
+http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101929
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports Premium 3 FHD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN Sports Premium 3 FHD
+http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/117116
+
 #EXTINF:-1 tvg-id="" tvg-name="beIN Sports AFC FHD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN Sports AFC FHD
 http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/115559
 #EXTINF:-1 tvg-id="" tvg-name="beIN Sports AFC 2 FHD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN Sports AFC 2 FHD
@@ -1408,24 +1418,39 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="DWEspanol.de" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="📰 | TIN TỨC",DW EspaÃ±ol (1080p)
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
 
+#----------------Canada-----------------
 
-#----------------India-----------------
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="🇨🇦 | CANADA",Kidoodle TV
+https://kidoodletv-kdtv-1-ca.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="3TamilTV.in" tvg-logo="https://i.imgur.com/WfAU7pB.png" group-title="🇮🇳 | ẤN ĐỘ",3 Tamil TV (720p) [Not 24/7]
-https://6n3yogbnd9ok-hls-live.5centscdn.com/threetamil/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8
+#EXTINF:-1 tvg-id="PrimeCanadaTV.ca" tvg-logo="https://i.imgur.com/xMABkOU.png" group-title="🇨🇦 | CANADA",Prime Canada TV (720p) [Not 24/7]
+http://cdn27.live247stream.com/primecanada/247/primecanada/stream1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="India Today" group-title="🇮🇳 | ẤN ĐỘ", Aathavan TV
-http://45.77.66.224:1935/athavantv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="BelmediaTV.ca" tvg-logo="https://i.imgur.com/xEbQsdj.png" group-title="🇨🇦 | CANADA",Belmedia TV (1080p)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCtj2xA6lW9BPE4BxnhxQQkw/live
+#EXTINF:-1 tvg-id="BeritaSatuWorld.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/BeritaSatuWorld.png/512px-BeritaSatuWorld.png" group-title="🇨🇦 | CANADA",BeritaSatu World (720p) [Not 24/7]
+https://b1world.beritasatumedia.com/Beritasatu/B1World_manifest.m3u8
 
-#EXTINF:-1 tvg-id="MultiTV" group-title="🇮🇳 | ẤN ĐỘ", MultiTV
-https://live.hungama.com/linear/artist-aloud/playlist.m3u8
+#EXTINF:-1 tvg-id="CanadaOne.ca" tvg-logo="https://i.imgur.com/zr6KoiS.jpg" group-title="🇨🇦 | CANADA",Canada One (720p) [Not 24/7]
+http://cdn8.live247stream.com/canadaone/tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CanadaStarTV.ca" tvg-logo="https://i.imgur.com/3Q9Nxj1.jpg" group-title="🇨🇦 | CANADA",Canada Star TV (720p)
+https://main.clickstreamcdn.com/agm/star-canada/playlist.m3u8
+#EXTINF:-1 tvg-id="CanadianArabTV.ca" tvg-logo="https://i.imgur.com/rAZBgir.png" group-title="🇨🇦 | CANADA",Canadian Arab TV (720p) [Not 24/7]
+http://live.catvmedia.ca:8080/hls/catv/index.m3u8
+#EXTINF:-1 tvg-id="CFTUDT.ca" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/Savoir_tv_logo.png" group-title="🇨🇦 | CANADA",Canal Savoir (360p)
+https://hls.savoir.media/live/stream.m3u8
 
-#EXTINF:-1 tvg-id="India Today" group-title="🇮🇳 | ẤN ĐỘ", India Today
-https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
+#EXTINF:-1 tvg-id="DegrassiTheNextGenerationCanada.ca" tvg-logo="https://i.imgur.com/mRBQKp3.png" group-title="🇨🇦 | CANADA",Degrassi The Next Generation (Canada) (720p)
+http://dhx-degrassi-2-ca.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="India Today" group-title="🇮🇳 | ẤN ĐỘ", Inshort (India)
-https://inshort-samsungindia.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="LoveNature4K.ca" tvg-logo="https://i.imgur.com/m3jRPof.png" group-title="🇨🇦 | CANADA",Love Nature 4K
+https://d18dyiwu97wm6q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/LoveNature4K2-prod/playlist.m3u8
 
+#EXTINF:-1 tvg-id="LoveNature.ca" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Love_Nature_TV.png/512px-Love_Nature_TV.png" group-title="🇨🇦 | CANADA",Love Nature (1080p)
+http://bamus-eng-roku.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="🇨🇦 | CANADA",Mav TV
+https://mavtv-1-ca.samsung.wurl.tv/playlist.m3u8
 
 #----------------Anh-----------------
 #EXTINF:-1 group-title="🇬🇧 | ANH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/92/ITV_logo_2013.svg/1200px-ITV_logo_2013.svg.png",ITV
@@ -1472,6 +1497,34 @@ http://live-sg.cvacetv.ga/Pro7
 
 #EXTINF:-1 group-title="🇩🇪 | ĐỨC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Tagesschau24HD.svg/1200px-Tagesschau24HD.svg.png",Tagesschau24
 http://live-sg.cvacetv.ga/Tag24
+
+#EXTINF:-1 tvg-id="MunchenTV.de" tvg-logo="https://i.imgur.com/67z7iRh.jpg" group-title="🇩🇪 | ĐỨC",München TV (1080p) [Not 24/7]
+https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RegioTVBodensee.de" tvg-logo="https://i.imgur.com/olVCZTJ.png" group-title="🇩🇪 | ĐỨC",Regio TV Bodensee (1080p)
+https://regiotv-b.iptv-playoutcenter.de/regiotv-b/regiotv-b.stream_1/playlist.m3u8
+#EXTINF:-1 tvg-id="RegioTVStuttgart.de" tvg-logo="https://i.imgur.com/OFGHhRE.png" group-title="🇩🇪 | ĐỨC",Regio TV Stuttgart (1080p)
+https://regiotv-s.iptv-playoutcenter.de/regiotv-s/regiotv-s.stream_1/playlist.m3u8
+#EXTINF:-1 tvg-id="RFH.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/rfh.png" group-title="🇩🇪 | ĐỨC",RFH (1080p)
+https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:RFH_high/playlist.m3u8
+#EXTINF:-1 tvg-id="RFHHarz.de" tvg-logo="https://upload.wikimedia.org/wikipedia/de/thumb/e/ea/RFH-Logo.svg/512px-RFH-Logo.svg.png" group-title="🇩🇪 | ĐỨC",RFH Harz (1080p)
+http://62.113.210.250/medienasa-live/RFH_high/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="🇩🇪 | ĐỨC",RFH TV (1080p)
+http://58bd5b7a98e04.streamlock.net/medienasa-live/RFH_high/playlist.m3u8
+#EXTINF:-1 tvg-id="RFORosenheim.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/rfo.png" group-title="🇩🇪 | ĐỨC",RFO Rosenheim (1080p)
+https://stream01.stream.welocal.world/stream/fhd-rfo_66876/ngrp:stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="RheinMainTV.de" tvg-logo="https://cdn.hd-plus.de/senderlogos/bright-cropped/24539-1.png" group-title="🇩🇪 | ĐỨC",RheinMain TV (720p) [Not 24/7]
+https://586fb512206e4.streamlock.net/rheinmaintv-live/_definst_/mp4:livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="🇩🇪 | ĐỨC",rheinmaintv (720p) [Not 24/7]
+https://586fb512206e4.streamlock.net/rheinmaintv-live/mp4:livestream/chunklist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="🇩🇪 | ĐỨC",rheinmaintv (720p) [Not 24/7]
+https://586fb512206e4.streamlock.net/rheinmaintv-live/mp4:livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="🇩🇪 | ĐỨC",rheinmaintv (720p) [Not 24/7]
+https://586fb512206e4.streamlock.net/rheinmaintv-live/mp4:livestream/playlist.m3u8?=&ref=www.rheinmaintv.de&seid=598541
+#EXTINF:-1 tvg-id="RNF.de" tvg-logo="https://i.imgur.com/YkB39hx.png" group-title="🇩🇪 | ĐỨC",RNF (1080p)
+https://rnf.iptv-playoutcenter.de/rnf/rnf.stream_1/playlist.m3u8
+
+
 
 #----------------France-----------------
 #EXTINF:-1 group-title="🇫🇷 | PHÁP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/TF1_logo_2013.png/800px-TF1_logo_2013.png",TF1
@@ -1599,6 +1652,23 @@ http://live-vn.cvacetv.ga:9981/stream/channelid/1641481619
 #EXTINF:-1 group-title="🇦🇺 | ÚC" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/83/SBS_Australia_Logo_%282019%29.svg/800px-SBS_Australia_Logo_%282019%29.svg.png",SBS One
 http://live-vn.cvacetv.ga:9981/stream/channelid/779372179
 
+#----------------India-----------------
+
+#EXTINF:-1 tvg-id="3TamilTV.in" tvg-logo="https://i.imgur.com/WfAU7pB.png" group-title="🇮🇳 | ẤN ĐỘ",3 Tamil TV (720p) [Not 24/7]
+https://6n3yogbnd9ok-hls-live.5centscdn.com/threetamil/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8
+
+#EXTINF:-1 tvg-id="India Today" group-title="🇮🇳 | ẤN ĐỘ", Aathavan TV
+http://45.77.66.224:1935/athavantv/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MultiTV" group-title="🇮🇳 | ẤN ĐỘ", MultiTV
+https://live.hungama.com/linear/artist-aloud/playlist.m3u8
+
+#EXTINF:-1 tvg-id="India Today" group-title="🇮🇳 | ẤN ĐỘ", India Today
+https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
+
+#EXTINF:-1 tvg-id="India Today" group-title="🇮🇳 | ẤN ĐỘ", Inshort (India)
+https://inshort-samsungindia.amagi.tv/playlist.m3u8
+
 #----------------Thailand-----------------
 #EXTINF:-1 tvg-id="Channel3.th" group-title="🇹🇭 | THÁI LAN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d3/Ch3HDLogo.png", CH3 HD
 https://freelive.inwstream.com:1936/freelive-edge/3hd/playlist.m3u8
@@ -1638,7 +1708,7 @@ https://freelive.inwstream.com:1936/freelive-edge/amarinhd/playlist.m3u8
 
 #----------------Korea-----------------
 
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/kr/seezntv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/kr/wavve.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml.gz"
+
 #EXTINF:-1 tvg-id="BBSTV.kr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/BBS_%EB%B6%88%EA%B5%90%EB%B0%A9%EC%86%A1.svg/512px-BBS_%EB%B6%88%EA%B5%90%EB%B0%A9%EC%86%A1.svg.png" group-title="🇰🇷 | HÀN QUỐC",BBS Buddhist Broadcasting (1080p) [Not 24/7]
 http://bbstv.clouducs.com:1935/bbstv-live/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="CBSTV.kr" tvg-logo="https://i.imgur.com/WHDU8F3.png" group-title="🇰🇷 | HÀN QUỐC",CBS (1080p)
