@@ -1,45 +1,60 @@
-#EXTM3U url-tvg="http://onetv.click/schedule/epg.xml,http://trada.info/epg.xml,http://live-sg.cvacetv.ga:8080/xmltv/channels,http://live-vn.cvacetv.ga:8880/xmltv/channels, http://live-eu.cvacetv.ga:8080/xmltv/channels,http://live-vn.cvacetv.ga:9981/xmltv/channels" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=1
+#EXTM3U url-tvg="http://onetv.click/schedule/epg.xml,http://trada.info/epg.xml,http://live-sg.cvacetv.ga:8080/xmltv/channels,http://live-vn.cvacetv.ga:8880/xmltv/channels, http://live-eu.cvacetv.ga:8080/xmltv/channels,http://live-vn.cvacetv.ga:9981/xmltv/channels,http://web-iptv-online.000webhostapp.com/epg.php" tvg-shift=0 cache=500 deinterlace=1 aspect-ratio=16:9 m3uautoload=1
 
 ===========K+ HD==============
-#EXTINF:-1 tvg-id="Kcinehd" group-title="🟣 K+" tvg-logo="https://i.imgur.com/H28zPSm.jpg", K+CINE HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=2a6dc5b7e9c24a7396fd6a8926e01b20&key=0048701f074e501648b6758eb254e8bd
-https://sglive.akamaized.net/bpk-tv/prod_kplus_cinehd/default/index.mpd
 
-#EXTINF:-1 tvg-id="Klifehd" group-title="🟣 K+" tvg-logo="https://i.imgur.com/PPpEIBP.png", K+LIFE HD
+#EXTINF:-1 tvg-id="ksport1hd" group-title="🟣 K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/3/32/K%2B_Sport_1_HD_2021.png/revision/latest/scale-to-width-down/2021?cb=20220127022232&path-prefix=vi", K+ Sport1 FHD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=7938d1baaf98461a9fbccfc173a3a96d&key=071e9075c543eb6b2fe18260fca282b0
-https://sglive.akamaized.net/bpk-tv/prod_kplus_lifehd/default/index.mpd
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"ipn0YeqV3oXHPb3FDr5bMg","kid":"VLYBxQF7RZ2nFz9l31baew"}],"type":"temporary"}
+https://s8213.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv341&offset=1&nodelay=1
 
-#EXTINF:-1 tvg-id="Ksport1hd" group-title="🟣 K+" tvg-logo="https://i.imgur.com/0wjvLz2.png", K+SPORT1 HD
+#EXTINF:-1 tvg-id="ksport2hd" group-title="🟣 K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/fc/K%2B_Sport_2_HD_2021.png/revision/latest?cb=20220127022246&path-prefix=vi", K+ Sport2 FHD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=906e9041a9a147bd82acfcf8ed79e223&key=4fc131916459580a4b74f77ff79c6911
-https://sglive.akamaized.net/bpk-tv/prod_kplus_sport1hd/default/index.mpd
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"VXYD7r/GxMLy0VQQLLtHaQ","kid":"nR4NTucSQ/ybZkXxprFQhA"}],"type":"temporary"}
+http://s70132.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv373&offset=1&nodelay=1
 
-#EXTINF:-1 tvg-id="Ksport2hd" group-title="🟣 K+" tvg-logo="https://i.imgur.com/sxWq2PE.png", K+SPORT2 HD
+#EXTINF:-1 tvg-id="kcinehd" tvg-logo="https://static.wikia.nocookie.net/logos/images/f/fd/Kplus_Cine_HD.png/revision/latest/scale-to-width-down/1424?cb=20220127020355&path-prefix=vi" group-title="🟣 K+",K+ Cine HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=55f943b35444428090b5578789ebb813&key=a5219b6d6b8d0914ec6bf27cffd3bbaa
-https://sglive.akamaized.net/bpk-tv/prod_kplus_sport2hd/default/index.mpd
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"arlLFkt63ZNYlQ/HBZ4+nw","kid":"5u2EHNeuSom1UthrxDdAjQ"}],"type":"temporary"}
+http://s1288.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv339&offset=1&nodelay=1
 
-#EXTINF:-1 tvg-id="kkidshd" group-title="🟣 K+" tvg-logo="https://i.imgur.com/vEztTNK.png", K+ Kids HD
+#EXTINF:-1 tvg-id="klifehd" group-title="🟣 K+" tvg-logo="https://static.wikia.nocookie.net/logos/images/d/d7/K%2B_Life_HD_2021.png/revision/latest/scale-to-width-down/1473?cb=20220127022229&path-prefix=vi", K+ Life HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=d36f3ca0ceb44a0881a34876a7bd2e68&key=94b553e8ddc197ac29e87a65559703cb
-https://sglive.akamaized.net/bpk-tv/prod_kplus_kidshd/default/index.mpd
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"PazVmqLvSkxWVpWaJUzUhQ","kid":"uH/RQ2PzQraDH+BEpKWzMg"}],"type":"temporary"}
+http://s8212.cdn.mytvnet.vn/pkg20/wrap/xlive.mpd?c=vstv340&offset=1&nodelay=1
 
-#EXTINF:-1 tvg-id="k live 1 hd" group-title="🟣 K+" tvg-logo="https://i.imgur.com/GNGrfJy.png", K+ Live 1 HD
+----------------------------
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=2aad0e26dc92499c8dee0e4e417de176&key=ab269ff07364322c8a69f41d14d63bee
-https://sglive.akamaized.net/bpk-tv/prod_klive1/default/index.mpd
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"MUhMjNRWi7thEBq8D5kfXw","kid":"LBiIAkpIOki5i0jME/+znA"}],"type":"temporary"}
+#EXTINF:-1 tvg-id="kcinehd" group-title="🍭| Kplus - VieON" tvg-logo="https://cdn.hqth.me/logo/thumbs/85.png",K+Cine
+#EXTVLCOPT:http-user-agent=Exoplayer
 
-#EXTINF:-1 tvg-id="k live 2 hd" group-title="🟣 K+" tvg-logo="https://i.imgur.com/WpmJSpu.png", K+ Live 2 HD
+https://sgn-fpt-001-livecdn-vthn2-vnd.vieon.vn/4aebde8b26b59428482765a43ab24b29/1665885198899/wz/livetv_origin_drm/kplus_1_22_08_2021_android.smil/manifest.mpd?token=MGRiMTc3YTEtNzExYi0xMDQ5LTVjOGEtODQ0NDkxNDBkMmVkfGFuZHJvaWR8MGU3NTE5MWQ0ZjYyYTQxMGQ2MzZkOTAxMjZkNzliODd8NTFhY2NiMmMtMWRlMC00YTVjLTlkOGEtYjEzOWEyMmI5MDEyfGxpdmV0dnwyNjYxMzd8NmVkYjk4M2I0N2VjMmFkYjg0OGEyYjRmYzJmNzkwMTM=
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=fb53863f76fa47ffba8c0e2d3a2c9e09&key=66caecac92fd2a967e98e36a661907e1
-https://sglive.akamaized.net/bpk-tv/prod_klive2/default/index.mpd
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"iWFGjPZD4yqU9SR4AW5SVQ", "kid":"ogbfU5DaMZ+fM7ofpIpEhg" } ], "type":"temporary" }
+#EXTINF:-1 tvg-id="klifehd" tvg-logo="https://cdn.hqth.me/logo/thumbs/86.png" group-title="🍭| Kplus - VieON", K+Life
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://sgn-fpt-003-livecdn-vthn2-vnd.vieon.vn/7ff8dba6f962eb838174451c5a2a8b49/1665885199107/wz/livetv_origin_drm/kplus_nhipsong_22_08_2021_android.smil/manifest.mpd?token=MGRiMTc3YTEtNzExYi0xMDQ5LTVjOGEtODQ0NDkxNDBkMmVkfGFuZHJvaWR8MGU3NTE5MWQ0ZjYyYTQxMGQ2MzZkOTAxMjZkNzliODd8NDAzNjQyN2EtNjUzMi00ZDA5LWJlMWYtYWFmNTg3M2M3ZTQ3fGxpdmV0dnwyNjYxMzh8Njk3MzZiNjg3NDBlYmYxOGIzZGVhZDZmZTAzZDYwNDU=
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"Vz3g6rR3Y5W4RUjWN75Zgg", "kid":"AJwgucFiNFCwPW9Xjn6RMA" } ], "type":"temporary" }
+#EXTINF:-1 tvg-id="ksport1hd" tvg-logo="https://cdn.hqth.me/logo/thumbs/87.png" group-title="🍭| Kplus - VieON",K+Sport1
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://sgn-fpt-003-livecdn-vthn2-vnd.vieon.vn/338b08e8726beaa5161ed542788057a5/1665885199386/wz/livetv_origin_drm/kplus_sport_1_22_08_2021_android.smil/manifest.mpd?token=MGRiMTc3YTEtNzExYi0xMDQ5LTVjOGEtODQ0NDkxNDBkMmVkfGFuZHJvaWR8MGU3NTE5MWQ0ZjYyYTQxMGQ2MzZkOTAxMjZkNzliODd8MWU1ZTk0ODAtMTNkMC00YTNjLTk3MGItNzgyODgwMDNkNzI4fGxpdmV0dnwyNjYxMzl8YzBjYmQ0YWRmOGVlNzJhMjljMmI1ZWMyNDJiMzExMTA=
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"C1m6hYwbfPIkTFdtonYsgg","kid":"PGQuhgq+PfqKyJcA93BvqA"}],"type":"temporary"}
+#EXTINF:-1 tvg-id="ksport2hd" tvg-logo="https://cdn.hqth.me/logo/thumbs/88.png" group-title="🍭| Kplus - VieON",K+Sport2
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://sgn-fpt-001-livecdn-vthn2-vnd.vieon.vn/64fb99e10e5da603f6d94040fd175fac/1665885199612/wz/livetv_origin_drm/kplus_phongcach_22_08_2021_android.smil/manifest.mpd?token=MGRiMTc3YTEtNzExYi0xMDQ5LTVjOGEtODQ0NDkxNDBkMmVkfGFuZHJvaWR8MGU3NTE5MWQ0ZjYyYTQxMGQ2MzZkOTAxMjZkNzliODd8YWUwZTk3ZTItNzJlMi00MDNlLTk1NTAtMWIyMGM0NjgzZDlmfGxpdmV0dnwyNjYxM0F8NzVlODc4ZDVmZDViODM4OTM1NzVhMDhjOTc3OTc5NGM=
 
-#EXTINF:-1 tvg-id="k live 3 hd" group-title="🟣 K+" tvg-logo="https://i.imgur.com/WpmJSpu.png", K+ Live 3 HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey-base64-2-hex-json.herokuapp.com/results.php?keyid=7b0502a994574e5c8cc789e1d7f24fc5&key=f0fa5ed38424906e9c1298e47d6a6f72
-https://sglive.akamaized.net/bpk-tv/prod_klive3/default/index.mpd
+
+
 
 
 #=========================VTV==============================================
@@ -58,7 +73,7 @@ https://vips-livecdn.fptplay.net/hda1/vtv4_vhls.smil/playlist.m3u8?cc
 #EXTINF:-1 tvg-id="vtv5hd" group-title="🟢 VTV" tvg-logo="https://i.ibb.co/Hnyb8Cr/VTV5-cc.webp" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/vtv5hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8?cc",VTV5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 http://drfamaga5qliv.vcdn.cloud/vtv05/vtv05@1080p.m3u8?cc									
-#EXTINF:-1 tvg-id="vtv6hd" group-title="🟢 VTV" tvg-logo="http://vietanhtv.pw/ic/vtvcantho.png" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/vtv6hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8?cc",VTV Cần Thơ
+#EXTINF:-1 tvg-id="vtv6hd" group-title="🟢 VTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bf/Logo_vtv_c%E1%BA%A7n_th%C6%A1_2022.png" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/vtv6hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8?cc",VTV Cần Thơ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
 http://drfamaga5qliv.vcdn.cloud/vtv06/vtv06@1080p.m3u8?cc												
 #EXTINF:-1 tvg-id="vtv7hd" group-title="🟢 VTV" tvg-logo="https://i.ibb.co/Z89vrHX/VTV7-cc.webp" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/vtv7hd_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",VTV7
@@ -387,7 +402,7 @@ https://api.vthanhtivi.pw/v1/getlink/sctv-tv24/hollywoodclassics
 http://123host.television4you.xyz/cliptv.php?id=838
 
 #EXTINF:-1 tvg-id="boxhits" group-title="🟢 KÊNH PHIM" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", Box Hits
-http://live.vthanhtivi.pw:8080/bh
+http://vaiptv.duckdns.org/ClipTV.php?id=839
 
 #EXTINF:0 tvg-id="hbohd" group-title="🟢 KÊNH PHIM" tvg-logo="https://i.ibb.co/3Bt20YR/HBO-cc.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/hbo_1500.stream/chunks_dvr_range-${start}-${offset}.m3u8",HBO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
@@ -479,10 +494,8 @@ https://liveanevia.mncnow.id/live/eds/CelestialMovie/sa_dash_vmx/CelestialMovie.
 
 
 #============KÊNH KHOA HỌC==================
-#EXTINF:0 tvg-id="planetearthhd" type="stream" group-title="⚪ KÊNH KHOA HỌC" tvg-logo="https://cdn.hqth.me/logo/thumbs/194.png",Planet Earth
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://api.vthanhtivi.pw/v1/getlink/tv360/135/2
-
+#EXTINF:-1 tvg-id="planetearthhd" group-title="⚪ KÊNH KHOA HỌC" tvg-logo="https://106b9c59d.vws.vegacdn.vn/rBN9EfEEFSyoELIQDjEu/800x451x1604391174/cmc_new/img.live_channel/0/0/0/0/254_logo_raw.png", Planet Earth HD
+http://vaiptv.duckdns.org/ClipTV.php?id=826
 
 #EXTINF:0 tvg-id="animalhd" group-title="⚪ KÊNH KHOA HỌC" tvg-logo="https://i.ibb.co/7CQLFc3/animalplanet.png" catchup="append" catchup-days="3" catchup-source="https://tshift.fptplay.net/dvr/animalplanet_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8?cc",Animal Planet
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
@@ -550,7 +563,7 @@ https://tbientv.xyz/channel/?dmax
 http://123host.television4you.xyz/cliptv.php?id=837
 												
 #EXTINF:-1 tvg-id="woman" group-title="🌐 KÊNH QUỐC TẾ" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png", Woman
-http://api.vthanhtivi.pw/v1/getlink/tv360_s2/163/2
+http://vaiptv.duckdns.org/ClipTV.php?id=827
 
 #EXTINF:-1 tvg-id="drfithd" group-title="🌐 KÊNH QUỐC TẾ" tvg-logo="https://cdn.hqth.me/logo/thumbs/192.png", Dr.Fit
 http://123host.television4you.xyz/cliptv.php?id=823
@@ -1071,172 +1084,28 @@ https://vips-livecdn.fptplay.net/hdevent/fsport09_vhls.smil/chunklist_b5000000.m
 #EXTVLCOPT:http-user-agent=apptv1
 https://vips-livecdn.fptplay.net/hdevent/fsport10_vhls.smil/chunklist_b5000000.m3u8
 
-/////////////////////////////////////////////////////////
+---------------------------
 
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT FHD 1" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORT FHD 1
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/90154
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT FHD 2" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORT FHD 2
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/90155
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT FHD 3" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORT FHD 3
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/90156
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT FHD 4" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORT FHD 4
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/90157
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT FHD 5" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORT FHD 5
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/90158
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT FHD 6" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORT FHD 6
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/90159
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT FHD 7" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORT FHD 7
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/90160
-
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS NEWS HD" tvg-logo="" group-title="➡️ BEIN SPORTS",BEIN SPORTS NEWS HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/68682
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Premium 1 FHD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS Premium 1 FHD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101931
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Premium 2 FHD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS Premium 2 FHD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101929
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports Premium 3 FHD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN Sports Premium 3 FHD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/117116
-
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports AFC FHD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN Sports AFC FHD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/115559
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports AFC 2 FHD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN Sports AFC 2 FHD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/115560
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports AFC 3 FHD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN Sports AFC 3 FHD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/115561
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sport Xtra 1 FHD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN Sport Xtra 1 FHD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101942
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sport Xtra 2 FHD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN Sport Xtra 2 FHD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101943
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports MAX 1" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN Sports MAX 1
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/110542
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports Max 2" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN Sports Max 2
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/110543
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports Premium 1 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN Sports Premium 1 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101926
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports Premium 2 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN Sports Premium 2 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101925
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Premium 3 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS Premium 3 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101932
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS HD 1" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS HD 1
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/90164
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS HD 2" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS HD 2
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/90165
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT HD 4" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORT HD 4
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/90167
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT HD 3" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORT HD 3
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/90166
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT HD 5" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORT HD 5
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/90168
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT HD 6" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORT HD 6
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/90169
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORT HD 7" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORT HD 7
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/90170
-
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101939
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS English 1 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS English 1 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101944
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS English 2 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS English 2 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101945
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS English 3 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS English 3 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101946
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS French 1 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS French 1 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101947
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS French 2 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS French 2 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101948
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS French 3 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS French 3 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101949
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Turkce 1 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS Turkce 1 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101951
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Turkce 2 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS Turkce 2 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101952
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS Turkce 4 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS Turkce 4 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101954
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS MAX Turkce 1 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS MAX Turkce 1 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101955
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS MAX Turkce 2 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS MAX Turkce 2 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/101956
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS NBA" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN SPORTS NBA
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/108151
-#EXTINF:-1 tvg-id="" tvg-name="SSC SPORTS 1 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",SSC SPORTS 1 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/110195
-#EXTINF:-1 tvg-id="" tvg-name="SSC SPORTS 2 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",SSC SPORTS 2 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/110196
-#EXTINF:-1 tvg-id="" tvg-name="SSC SPORTS 3 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",SSC SPORTS 3 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/110197
-#EXTINF:-1 tvg-id="" tvg-name="SSC SPORTS 4 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",SSC SPORTS 4 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/110198
-#EXTINF:-1 tvg-id="" tvg-name="SSC SPORTS 5 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",SSC SPORTS 5 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/110199
-#EXTINF:-1 tvg-id="" tvg-name="SSC SPORTS 6 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",SSC SPORTS 6 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/110200
-#EXTINF:-1 tvg-id="" tvg-name="SSC SPORTS 7 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",SSC SPORTS 7 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/110201
-#EXTINF:-1 tvg-id="" tvg-name="BEIN SPORTS" tvg-logo="" group-title="➡️ BEIN SPORTS",BEIN SPORTS
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/97119
-#EXTINF:-1 tvg-id="" tvg-name="Al Kaas 1 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",Al Kaas 1 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/115564
-#EXTINF:-1 tvg-id="" tvg-name="Al Kaas 2 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",Al Kaas 2 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/115562
-#EXTINF:-1 tvg-id="" tvg-name="Al Kaas 4 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",Al Kaas 4 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/115563
-#EXTINF:-1 tvg-id="" tvg-name="beIN 4K" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN 4K
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/119132
-#EXTINF:-1 tvg-id="" tvg-name="beIN Sports AFC 1 FHD" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN Sports AFC 1 FHD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/119133
-#EXTINF:-1 tvg-id="" tvg-name="KSA Sports 1 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",KSA Sports 1 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/119299
-#EXTINF:-1 tvg-id="" tvg-name="KSA Sports 2 HD" tvg-logo="" group-title="➡️ BEIN SPORTS",KSA Sports 2 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/119300
-#EXTINF:-1 tvg-id="" tvg-name="beIN FCB" tvg-logo="" group-title="➡️ BEIN SPORTS",beIN FCB
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/119846
-#EXTINF:-1 tvg-id="" tvg-name="Abu Dhabi Sports Premium 1" tvg-logo="" group-title="➡️ BEIN SPORTS",Abu Dhabi Sports Premium 1
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/120185
-#EXTINF:-1 tvg-id="" tvg-name="Abu Dhabi Sports Premium Asia 1" tvg-logo="" group-title="➡️ BEIN SPORTS",Abu Dhabi Sports Premium Asia 1
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/121268
-#EXTINF:-1 tvg-id="" tvg-name="Abu Dhabi Sports Premium Asia 2" tvg-logo="" group-title="➡️ BEIN SPORTS",Abu Dhabi Sports Premium Asia 2
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/121269
-
-#EXTINF:-1 tvg-id="" tvg-name="FR: BEIN SPORT 1 FHD" tvg-logo="" group-title="➡️ FRANCE TV",FR: BEIN SPORT 1 FHD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/118340
-#EXTINF:-1 tvg-id="" tvg-name="FR: BEIN SPORT 2 FHD" tvg-logo="" group-title="➡️ FRANCE TV",FR: BEIN SPORT 2 FHD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/118341
-#EXTINF:-1 tvg-id="" tvg-name="FR: BEIN SPORT 3 FHD" tvg-logo="" group-title="➡️ FRANCE TV",FR: BEIN SPORT 3 FHD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/118342
-#EXTINF:-1 tvg-id="" tvg-name="FR: BEIN SPORTS 1 HD" tvg-logo="" group-title="➡️ FRANCE TV",FR: BEIN SPORTS 1 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/118343
-#EXTINF:-1 tvg-id="" tvg-name="FR: BEIN SPORTS 2 HD" tvg-logo="" group-title="➡️ FRANCE TV",FR: BEIN SPORTS 2 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/118344
-#EXTINF:-1 tvg-id="" tvg-name="FR: BEIN SPORTS 3 HD" tvg-logo="" group-title="➡️ FRANCE TV",FR: BEIN SPORTS 3 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/118345
-#EXTINF:-1 tvg-id="" tvg-name="FR: BEIN SPORTS MAX 4 SD" tvg-logo="" group-title="➡️ FRANCE TV",FR: BEIN SPORTS MAX 4 SD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/118346
-#EXTINF:-1 tvg-id="" tvg-name="FR: BEIN SPORTS MAX 5 SD" tvg-logo="" group-title="➡️ FRANCE TV",FR: BEIN SPORTS MAX 5 SD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/118347
-#EXTINF:-1 tvg-id="" tvg-name="FR: BEIN SPORTS MAX 6 SD" tvg-logo="" group-title="➡️ FRANCE TV",FR: BEIN SPORTS MAX 6 SD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/118348
-#EXTINF:-1 tvg-id="" tvg-name="FR: BEIN SPORTS MAX 7 SD" tvg-logo="" group-title="➡️ FRANCE TV",FR: BEIN SPORTS MAX 7 SD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/118349
-#EXTINF:-1 tvg-id="" tvg-name="FR: BEIN SPORTS MAX 8 SD" tvg-logo="" group-title="➡️ FRANCE TV",FR: BEIN SPORTS MAX 8 SD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/118350
-#EXTINF:-1 tvg-id="" tvg-name="FR: BEIN SPORTS MAX 9 SD" tvg-logo="" group-title="➡️ FRANCE TV",FR: BEIN SPORTS MAX 9 SD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/118351
-
-#EXTINF:-1 tvg-id="" tvg-name="TR: beIN SPORT 1 HD" tvg-logo="" group-title="➡️ TURKISH TV",TR: beIN SPORT 1 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/97929
-#EXTINF:-1 tvg-id="" tvg-name="TR: beIN SPORTS HD+" tvg-logo="" group-title="➡️ TURKISH TV",TR: beIN SPORTS HD+
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/97933
-#EXTINF:-1 tvg-id="" tvg-name="TR: beIN SPORTS 2 HD" tvg-logo="" group-title="➡️ TURKISH TV",TR: beIN SPORTS 2 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/97934
-#EXTINF:-1 tvg-id="" tvg-name="TR: beIN SPORTS 3 HD" tvg-logo="" group-title="➡️ TURKISH TV",TR: beIN SPORTS 3 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/97937
-#EXTINF:-1 tvg-id="" tvg-name="TR: beIN SPORTS 4 HD" tvg-logo="" group-title="➡️ TURKISH TV",TR: beIN SPORTS 4 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/97939
-#EXTINF:-1 tvg-id="" tvg-name="TR: beIN SPORTS MAX 1 HD" tvg-logo="" group-title="➡️ TURKISH TV",TR: beIN SPORTS MAX 1 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/97953
-#EXTINF:-1 tvg-id="" tvg-name="TR: beIN SPORTS MAX 2 HD" tvg-logo="" group-title="➡️ TURKISH TV",TR: beIN SPORTS MAX 2 HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/97954
-#EXTINF:-1 tvg-id="" tvg-name="US: beIN Sports US HD" tvg-logo="" group-title="➡️ TURKISH TV",US: beIN Sports US HD
-http://line.365tv.xyz:8060/k-online_panelssfdser54/VMyLNz2dBa/100352
+#EXTINF:-1 tvg-id="beinsports1.qa" tvg-name="BEIN SPORTS 1HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e5/Logo_bein_sports_1.png" group-title="➡️ BEIN SPORT",BEIN SPORTS 1HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/191848
+#EXTINF:-1 tvg-id="beinsports2.qa" tvg-name="BEIN SPORTS 2HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_bein_sports_2.png" group-title="➡️ BEIN SPORT",BEIN SPORTS 2HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/191849
+#EXTINF:-1 tvg-id="beinsports3.qa" tvg-name="BEIN SPORTS 3HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c4/Logo_bein_sports_3.png" group-title="➡️ BEIN SPORT",BEIN SPORTS 3HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/191850
+#EXTINF:-1 tvg-id="beinsports4.qa" tvg-name="BEIN SPORTS 4HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/96/Logo_bein_sports_4.png" group-title="➡️ BEIN SPORT",BEIN SPORTS 4HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/191851
+#EXTINF:-1 tvg-id="beinsports7.qa" tvg-name="BEIN SPORTS 7HD" tvg-logo="https://comunidad.orange.es/waykc66935/attachments/waykc66935/futbol-series-cine/3971/27/beIN-MAX7.png" group-title="➡️ BEIN SPORT",BEIN SPORTS 7HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/191854
+#EXTINF:-1 tvg-id="aljazeeraenglish.qa" tvg-name="beIN Sports English 1" tvg-logo="https://iptv4free.net/assets/images/channel/channel_featured_1565972989.png" group-title="➡️ BEIN SPORT",beIN Sports English 1
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/191858
+#EXTINF:-1 tvg-id="aljazeeraenglish.qa" tvg-name="beIN Sports English 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5f/12-HD.png" group-title="➡️ BEIN SPORT",beIN Sports English 2
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/191859
+#EXTINF:-1 tvg-id="beinsports5.qa" tvg-name="Bein Sports 5HD" tvg-logo="https://cdn.bein.net/ca/wp-content/uploads/2016/05/beIN-Sports-logo-5-1024x389.png" group-title="➡️ BEIN SPORT",Bein Sports 5HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/270029
+#EXTINF:-1 tvg-id="beinsports6.qa" tvg-name="Bein Sports 6HD" tvg-logo="https://4.bp.blogspot.com/-1dPQNlxlceA/WlPXHfNatgI/AAAAAAAAAcg/qi8He1MCorIajq3clE6MYD1oLAy90ig6ACLcBGAs/s1600/6-HD.png" group-title="➡️ BEIN SPORT",Bein Sports 6HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/270030
+#EXTINF:-1 tvg-id="" tvg-name="Bein Sport NBA" tvg-logo="" group-title="➡️ BEIN SPORT",Bein Sport NBA
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/270038
 
 /////////////////////////////////////////////
 
@@ -1530,6 +1399,243 @@ https://5afd52b55ff79.streamlock.net/MISTV/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="MNBWorld.mn" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mnb-world-mn.png" group-title="🇦🇺 | ÚC",MNB world
 https://live.mnb.mn/live/mnb_world.stream/playlist.m3u8
 
+--------------BRAZIL-------------------
+#EXTINF:-1 tvg-id="" tvg-name="BR:  SPORT TV 3" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  SPORT TV 3
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001305
+#EXTINF:-1 tvg-id="" tvg-name="BR:  FOX Sports 1" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  FOX Sports 1
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001306
+#EXTINF:-1 tvg-id="" tvg-name="BR:  ESPN Brasil HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  ESPN Brasil HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001307
+#EXTINF:-1 tvg-id="" tvg-name="BR: TNT Series FHD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: TNT Series FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001308
+#EXTINF:-1 tvg-id="" tvg-name="BR:  TNT HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  TNT HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001309
+#EXTINF:-1 tvg-id="" tvg-name="BR:  SporTV 3 HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  SporTV 3 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001310
+#EXTINF:-1 tvg-id="" tvg-name="BR: SPORTV 1 HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: SPORTV 1 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001311
+#EXTINF:-1 tvg-id="" tvg-name="BR: SPORTV 2 FHD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: SPORTV 2 FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001312
+#EXTINF:-1 tvg-id="" tvg-name="BR:  TNT SÃ©ries HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  TNT SÃ©ries HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001313
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Band News HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Band News HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001314
+#EXTINF:-1 tvg-id="" tvg-name="BR:  ESPN 2 HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  ESPN 2 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001315
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Discovery Kids HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Discovery Kids HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001316
+#EXTINF:-1 tvg-id="" tvg-name="BR:  ESPN EXtra HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  ESPN EXtra HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001317
+#EXTINF:-1 tvg-id="" tvg-name="BR:  FoX Sports 2 HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  FoX Sports 2 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001318
+#EXTINF:-1 tvg-id="" tvg-name="BR:  SporTV 2 HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  SporTV 2 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001319
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Premiere 2 HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Premiere 2 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001320
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Animal Planet HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Animal Planet HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001321
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Band SP HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Band SP HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001322
+#EXTINF:-1 tvg-id="" tvg-name="BR:  ALL Sports" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  ALL Sports
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001323
+#EXTINF:-1 tvg-id="" tvg-name="BR:  AXN HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  AXN HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001324
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Globo RJ HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Globo RJ HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001325
+#EXTINF:-1 tvg-id="" tvg-name="BR:  HBO 2 HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  HBO 2 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001326
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Globo SP HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Globo SP HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001327
+#EXTINF:-1 tvg-id="" tvg-name="BR:  SBT TV Cidade Verde Piaui SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  SBT TV Cidade Verde Piaui SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001328
+#EXTINF:-1 tvg-id="" tvg-name="BR:  HBO HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  HBO HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001329
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Sony HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Sony HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001330
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Canal Brasil SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Canal Brasil SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001331
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Record SP HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Record SP HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001332
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Band Sports HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Band Sports HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001333
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Space HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Space HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001334
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Discovery TLC HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Discovery TLC HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001335
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Globo Brasilia SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Globo Brasilia SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001336
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Globo EPTV Sao Carlos SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Globo EPTV Sao Carlos SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001337
+#EXTINF:-1 tvg-id="" tvg-name="BR: HBO PLUS HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: HBO PLUS HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001338
+#EXTINF:-1 tvg-id="" tvg-name="BR:  FoX Premium 2 HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  FoX Premium 2 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001339
+#EXTINF:-1 tvg-id="" tvg-name="BR:  HBO Family HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  HBO Family HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001340
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Discovery Science HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Discovery Science HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001341
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Telecine Action HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Telecine Action HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001342
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Telecine Pipoca HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Telecine Pipoca HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001343
+#EXTINF:-1 tvg-id="" tvg-name="BR:  FX HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  FX HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001344
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Globo Premium" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Globo Premium
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001345
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Globo Nordeste HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Globo Nordeste HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001346
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Globo RPC TV SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Globo RPC TV SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001347
+#EXTINF:-1 tvg-id="" tvg-name="BR:  National Geographic Kids HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  National Geographic Kids HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001348
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Globo EPTV Campinas HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Globo EPTV Campinas HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001349
+#EXTINF:-1 tvg-id="" tvg-name="BR:  FoX Life HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  FoX Life HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001350
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Globo Minas HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Globo Minas HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001351
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Boomerang HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Boomerang HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001352
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Globo RBS TV Pelotas HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Globo RBS TV Pelotas HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001353
+#EXTINF:-1 tvg-id="" tvg-name="BR:  MTV HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  MTV HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001354
+#EXTINF:-1 tvg-id="" tvg-name="BR:  HBO Pop HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  HBO Pop HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001355
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Telecine Fun HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Telecine Fun HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001356
+#EXTINF:-1 tvg-id="" tvg-name="BR:  MTV Live HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  MTV Live HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001357
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Combate HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Combate HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001358
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Disney Junior HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Disney Junior HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001359
+#EXTINF:-1 tvg-id="" tvg-name="BR:  GNT HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  GNT HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001360
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Premiere Clubes HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Premiere Clubes HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001361
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Rede TV HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Rede TV HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001362
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Nick Jr HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Nick Jr HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001363
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Globo TV Morena HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Globo TV Morena HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001364
+#EXTINF:-1 tvg-id="" tvg-name="BR:  History Channel HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  History Channel HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001365
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Futura HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Futura HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001366
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Globo TV Bahia SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Globo TV Bahia SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001367
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Record Nordeste HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Record Nordeste HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001368
+#EXTINF:-1 tvg-id="" tvg-name="BR: Record RJ HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: Record RJ HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001369
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Discovery Home & Health HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Discovery Home & Health HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001370
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Discovery World HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Discovery World HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001371
+#EXTINF:-1 tvg-id="" tvg-name="BR: Record SP HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: Record SP HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001372
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Globo RPC Curitiba HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Globo RPC Curitiba HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001373
+#EXTINF:-1 tvg-id="" tvg-name="BR:  HGTV HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  HGTV HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001374
+#EXTINF:-1 tvg-id="" tvg-name="BR: PREMIERE 1 HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: PREMIERE 1 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001375
+#EXTINF:-1 tvg-id="" tvg-name="Globo TV Tem Sorocaba HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",Globo TV Tem Sorocaba HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001376
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Telecine Touch HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Telecine Touch HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001377
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Globo INTER TV Cabugi RN SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Globo INTER TV Cabugi RN SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001378
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Rede Vida HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Rede Vida HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001379
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Globo TV Tribuna Santos SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Globo TV Tribuna Santos SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001380
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Natgeo Wild FHD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Natgeo Wild FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001381
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Viva HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Viva HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001382
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Rede Gospel SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Rede Gospel SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001383
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Woohoo HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Woohoo HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001384
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Zoomoo HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Zoomoo HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001385
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Globo News HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Globo News HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001386
+#EXTINF:-1 tvg-id="" tvg-name="BR:  TCM SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  TCM SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001387
+#EXTINF:-1 tvg-id="" tvg-name="BR:  TV Gazeta SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  TV Gazeta SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001388
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Telecine Cult HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Telecine Cult HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001389
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Fish TV HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Fish TV HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001390
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Universal Channel HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Universal Channel HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001391
+#EXTINF:-1 tvg-id="" tvg-name="BR:  VH1 HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  VH1 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001392
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Tooncast HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Tooncast HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001393
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Globo TV Tem Sorocaba SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Globo TV Tem Sorocaba SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001394
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Music BoX Brazil SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Music BoX Brazil SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001395
+#EXTINF:-1 tvg-id="" tvg-name="Br-Record RJ HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",Br-Record RJ HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001396
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Rede Brasil" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Rede Brasil
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001397
+#EXTINF:-1 tvg-id="" tvg-name="BR: REDE VIDA HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: REDE VIDA HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001398
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Paramount Channel HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Paramount Channel HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001399
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Food Network HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Food Network HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001400
+#EXTINF:-1 tvg-id="" tvg-name="BR: FOX PREMIUM 2 HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: FOX PREMIUM 2 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001401
+#EXTINF:-1 tvg-id="" tvg-name="BR: Discovery World SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: Discovery World SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001402
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Record Campinas HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Record Campinas HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001403
+#EXTINF:-1 tvg-id="" tvg-name="BR:  TV DIARIO DO SERTAO" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  TV DIARIO DO SERTAO
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001404
+#EXTINF:-1 tvg-id="" tvg-name="BR: Mais Globosat SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: Mais Globosat SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001405
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Rede Familia SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Rede Familia SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001406
+#EXTINF:-1 tvg-id="" tvg-name="BR: GLOBO SP FHD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: GLOBO SP FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001407
+#EXTINF:-1 tvg-id="" tvg-name="BR: GLOBO RBS PORTO ALEGRE" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: GLOBO RBS PORTO ALEGRE
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001408
+#EXTINF:-1 tvg-id="" tvg-name="BR: Band Campinas HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: Band Campinas HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001409
+#EXTINF:-1 tvg-id="" tvg-name="BR: DISNEY XD HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: DISNEY XD HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001410
+#EXTINF:-1 tvg-id="" tvg-name="BR: Telecine Fun SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: Telecine Fun SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001411
+#EXTINF:-1 tvg-id="" tvg-name="BR: NatGeo Wild SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: NatGeo Wild SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001412
+#EXTINF:-1 tvg-id="" tvg-name="BR: Globo Nordeste" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: Globo Nordeste
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001413
+#EXTINF:-1 tvg-id="" tvg-name="BR: NATIONAL GEOGRAPHIC HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: NATIONAL GEOGRAPHIC HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001414
+#EXTINF:-1 tvg-id="" tvg-name="BR: ID Discovery HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: ID Discovery HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001415
+#EXTINF:-1 tvg-id="" tvg-name="BR:  VH1 Mega Hits SD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  VH1 Mega Hits SD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001416
+#EXTINF:-1 tvg-id="" tvg-name="BR:  Globo RPC HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR:  Globo RPC HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001417
+#EXTINF:-1 tvg-id="" tvg-name="BR: Multishow HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: Multishow HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001418
+#EXTINF:-1 tvg-id="" tvg-name="BR: Premiere 3 HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: Premiere 3 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001419
+#EXTINF:-1 tvg-id="" tvg-name="BR: Premiere 4 HD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: Premiere 4 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001420
+#EXTINF:-1 tvg-id="" tvg-name="BR: Globo TV Morena FHD" tvg-logo="" group-title="🇧🇷 | BRAZIL",BR: Globo TV Morena FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/1001421
+
+
 #----------------Canada-----------------
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="🇨🇦 | CANADA",Kidoodle TV
@@ -1566,51 +1672,417 @@ https://mavtv-1-ca.samsung.wurl.tv/playlist.m3u8
 
 
 #----------------Germany-----------------
-#EXTINF:-1 group-title="🇩🇪 | ĐỨC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Das_Erste-Logo_klein.svg/1200px-Das_Erste-Logo_klein.svg.png",Das Erste
-http://live-vn.cvacetv.ga:9981/stream/channelid/664608304
-#EXTINF:-1 group-title="🇩🇪 | ĐỨC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/ZDF_HD_Logo.svg/2560px-ZDF_HD_Logo.svg.png",ZDF
-http://live-vn.cvacetv.ga:9981/stream/channelid/1978213418
-#EXTINF:-1 group-title="🇩🇪 | ĐỨC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/RTL_DE_Logo_2021_blau_petrol_lila.png",RTL
-http://live-vn.cvacetv.ga:9981/stream/channelid/1164228462
-#EXTINF:-1 group-title="🇩🇪 | ĐỨC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/800px-RTLZWEI_Logo_2019.svg.png",RTLII
-http://live-sg.cvacetv.ga/RTLII
-#EXTINF:-1 group-title="🇩🇪 | ĐỨC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/ProSieben_Logo_2015.svg/1200px-ProSieben_Logo_2015.svg.png",ProSieben
-http://live-sg.cvacetv.ga/ProSieben
-#EXTINF:-1 group-title="🇩🇪 | ĐỨC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/ProSieben_MAXX_Logo.svg/1280px-ProSieben_MAXX_Logo.svg.png",Pro7 MAXX
-http://live-sg.cvacetv.ga/Pro7
-#EXTINF:-1 group-title="🇩🇪 | ĐỨC" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a3/SAT.1_logo_2016.png",SAT.1
+#EXTINF:-1 tvg-id="" tvg-name="DE: Das Erste FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Das Erste FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997968
+#EXTINF:-1 tvg-id="" tvg-name="DE: DAS ERSTE HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: DAS ERSTE HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997969
+#EXTINF:-1 tvg-id="" tvg-name="DE: ZDF FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: ZDF FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997970
+#EXTINF:-1 tvg-id="" tvg-name="DE : RTL HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE : RTL HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997971
+#EXTINF:-1 tvg-id="" tvg-name="DE: RTL 2 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: RTL 2 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997972
+#EXTINF:-1 tvg-id="" tvg-name="DE: RTL II HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: RTL II HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997973
+#EXTINF:-1 tvg-id="" tvg-name="DE: RTL LIVING FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: RTL LIVING FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997974
+#EXTINF:-1 tvg-id="" tvg-name="DE: RTL NITRO HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: RTL NITRO HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997975
+#EXTINF:-1 tvg-id="" tvg-name="DE: RTL PLUS HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: RTL PLUS HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997976
+#EXTINF:-1 tvg-id="" tvg-name="DE: RTLup" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: RTLup
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997977
+#EXTINF:-1 tvg-id="" tvg-name="DE: SAT 1 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SAT 1 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997978
+#EXTINF:-1 tvg-id="" tvg-name="DE: SAT 1 EMOTIONS" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SAT 1 EMOTIONS
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997979
+#EXTINF:-1 tvg-id="" tvg-name="DE: PROSIEBEN HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: PROSIEBEN HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997980
+#EXTINF:-1 tvg-id="" tvg-name="DE: PRO 7 FUN HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: PRO 7 FUN HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997981
+#EXTINF:-1 tvg-id="" tvg-name="DE: PRO 7 MAXX HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: PRO 7 MAXX HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997982
+#EXTINF:-1 tvg-id="" tvg-name="DE: PROSIEBEN MAXX HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: PROSIEBEN MAXX HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997983
+#EXTINF:-1 tvg-id="" tvg-name="DE: VOX HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: VOX HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997984
+#EXTINF:-1 tvg-id="" tvg-name="DE: VOXup" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: VOXup
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997985
+#EXTINF:-1 tvg-id="" tvg-name="DE: KABEL 1 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: KABEL 1 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997986
+#EXTINF:-1 tvg-id="" tvg-name="DE: DMAX HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: DMAX HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997987
+#EXTINF:-1 tvg-id="" tvg-name="DE: SIXX HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SIXX HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997988
+#EXTINF:-1 tvg-id="" tvg-name="DE: TLC HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: TLC HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997989
+#EXTINF:-1 tvg-id="" tvg-name="DE: COMEDY CENTRAL FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: COMEDY CENTRAL FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997990
+#EXTINF:-1 tvg-id="" tvg-name="DE: 13 STREET HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: 13 STREET HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997991
+#EXTINF:-1 tvg-id="" tvg-name="DE: 13TH STREET FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: 13TH STREET FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997992
+#EXTINF:-1 tvg-id="" tvg-name="DE: E! Entertainment HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: E! Entertainment HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997993
+#EXTINF:-1 tvg-id="" tvg-name="DE: ORF 1 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: ORF 1 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997994
+#EXTINF:-1 tvg-id="" tvg-name="DE: Orf 2 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Orf 2 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997995
+#EXTINF:-1 tvg-id="" tvg-name="DE: ORF 3 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: ORF 3 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997996
+#EXTINF:-1 tvg-id="" tvg-name="DE: SRF 1 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SRF 1 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997997
+#EXTINF:-1 tvg-id="" tvg-name="DE: SAT 3 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SAT 3 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997998
+#EXTINF:-1 tvg-id="" tvg-name="DE: 3SAT HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: 3SAT HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/997999
+#EXTINF:-1 tvg-id="" tvg-name="DE: TELE 5 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: TELE 5 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998000
+#EXTINF:-1 tvg-id="" tvg-name="DE: BR FERNSEHEN  HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: BR FERNSEHEN  HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998001
+#EXTINF:-1 tvg-id="" tvg-name="DE: HR FERNSEHEN HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: HR FERNSEHEN HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998002
+#EXTINF:-1 tvg-id="" tvg-name="DE: MUNCHEN TV HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: MUNCHEN TV HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998003
+#EXTINF:-1 tvg-id="" tvg-name="DE: SWR HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SWR HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998004
+#EXTINF:-1 tvg-id="" tvg-name="DE: HEIMAT CANAL HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: HEIMAT CANAL HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998005
+#EXTINF:-1 tvg-id="" tvg-name="DE: HEIMATKANAL" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: HEIMATKANAL
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998006
+#EXTINF:-1 tvg-id="" tvg-name="DE: HSE24 EXTRA" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: HSE24 EXTRA
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998007
+#EXTINF:-1 tvg-id="" tvg-name="DE: PEARL TV FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: PEARL TV FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998008
+#EXTINF:-1 tvg-id="" tvg-name="DE: pearl.tv Shop" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: pearl.tv Shop
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998009
 
-#EXTINF:-1 group-title="🇩🇪 | ĐỨC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Sat.1_Gold_HD_Logo_2019.svg/1200px-Sat.1_Gold_HD_Logo_2019.svg.png",SAT.1 Gold
-
-#EXTINF:-1 group-title="🇩🇪 | ĐỨC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Tagesschau24HD.svg/1200px-Tagesschau24HD.svg.png",Tagesschau24
-http://live-sg.cvacetv.ga/Tag24
-
-#EXTINF:-1 tvg-id="MunchenTV.de" tvg-logo="https://i.imgur.com/67z7iRh.jpg" group-title="🇩🇪 | ĐỨC",München TV (1080p) [Not 24/7]
-https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8
-
-#EXTINF:-1 tvg-id="RegioTVBodensee.de" tvg-logo="https://i.imgur.com/olVCZTJ.png" group-title="🇩🇪 | ĐỨC",Regio TV Bodensee (1080p)
-https://regiotv-b.iptv-playoutcenter.de/regiotv-b/regiotv-b.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-id="RegioTVStuttgart.de" tvg-logo="https://i.imgur.com/OFGHhRE.png" group-title="🇩🇪 | ĐỨC",Regio TV Stuttgart (1080p)
-https://regiotv-s.iptv-playoutcenter.de/regiotv-s/regiotv-s.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-id="RFH.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/rfh.png" group-title="🇩🇪 | ĐỨC",RFH (1080p)
-https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:RFH_high/playlist.m3u8
-#EXTINF:-1 tvg-id="RFHHarz.de" tvg-logo="https://upload.wikimedia.org/wikipedia/de/thumb/e/ea/RFH-Logo.svg/512px-RFH-Logo.svg.png" group-title="🇩🇪 | ĐỨC",RFH Harz (1080p)
-http://62.113.210.250/medienasa-live/RFH_high/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="🇩🇪 | ĐỨC",RFH TV (1080p)
-http://58bd5b7a98e04.streamlock.net/medienasa-live/RFH_high/playlist.m3u8
-#EXTINF:-1 tvg-id="RFORosenheim.de" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/rfo.png" group-title="🇩🇪 | ĐỨC",RFO Rosenheim (1080p)
-https://stream01.stream.welocal.world/stream/fhd-rfo_66876/ngrp:stream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="RheinMainTV.de" tvg-logo="https://cdn.hd-plus.de/senderlogos/bright-cropped/24539-1.png" group-title="🇩🇪 | ĐỨC",RheinMain TV (720p) [Not 24/7]
-https://586fb512206e4.streamlock.net/rheinmaintv-live/_definst_/mp4:livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="🇩🇪 | ĐỨC",rheinmaintv (720p) [Not 24/7]
-https://586fb512206e4.streamlock.net/rheinmaintv-live/mp4:livestream/chunklist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="🇩🇪 | ĐỨC",rheinmaintv (720p) [Not 24/7]
-https://586fb512206e4.streamlock.net/rheinmaintv-live/mp4:livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="🇩🇪 | ĐỨC",rheinmaintv (720p) [Not 24/7]
-https://586fb512206e4.streamlock.net/rheinmaintv-live/mp4:livestream/playlist.m3u8?=&ref=www.rheinmaintv.de&seid=598541
-#EXTINF:-1 tvg-id="RNF.de" tvg-logo="https://i.imgur.com/YkB39hx.png" group-title="🇩🇪 | ĐỨC",RNF (1080p)
-https://rnf.iptv-playoutcenter.de/rnf/rnf.stream_1/playlist.m3u8
-
+#EXTINF:-1 tvg-id="" tvg-name="DE: Warner TV FILM FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Warner TV FILM FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998011
+#EXTINF:-1 tvg-id="" tvg-name="DE: TWarner TV SERIE FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: TWarner TV SERIE FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998012
+#EXTINF:-1 tvg-id="" tvg-name="DE: Warner TV COMEDY HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Warner TV COMEDY HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998013
+#EXTINF:-1 tvg-id="" tvg-name="DE: Sky Replay FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Sky Replay FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998014
+#EXTINF:-1 tvg-id="" tvg-name="DE: ANIXE SERIE FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: ANIXE SERIE FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998015
+#EXTINF:-1 tvg-id="" tvg-name="DE: AXN HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: AXN HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998016
+#EXTINF:-1 tvg-id="" tvg-name="DE: SONY AXN FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SONY AXN FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998017
+#EXTINF:-1 tvg-id="" tvg-name="DE: SONY CHANNEL FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SONY CHANNEL FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998018
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY ATLANTIC FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY ATLANTIC FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998019
+#EXTINF:-1 tvg-id="" tvg-name="DE: Sky Crime" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Sky Crime
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998020
+#EXTINF:-1 tvg-id="" tvg-name="DE: KABEL EINS CLASSICS HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: KABEL EINS CLASSICS HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998021
+#EXTINF:-1 tvg-id="" tvg-name="DE: RTL CRIME HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: RTL CRIME HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998022
+#EXTINF:-1 tvg-id="" tvg-name="DE: RTL PASSION HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: RTL PASSION HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998023
+#EXTINF:-1 tvg-id="" tvg-name="DE: ROMANCE TV HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: ROMANCE TV HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998024
+#EXTINF:-1 tvg-id="" tvg-name="DE: SAT 1 GOLD HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SAT 1 GOLD HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998025
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY 1 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY 1 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998026
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY ONE FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY ONE FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998027
+#EXTINF:-1 tvg-id="" tvg-name="DE: SYFY FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SYFY FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998028
+#EXTINF:-1 tvg-id="" tvg-name="DE: UNIVERSAL TV FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: UNIVERSAL TV FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998029
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY KRIMI FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY KRIMI FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998030
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY CINEMA PREMIEREN FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY CINEMA PREMIEREN FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998031
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY CINEMA FAMILY HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY CINEMA FAMILY HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998032
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY CINEMA SPECIAL FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY CINEMA SPECIAL FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998033
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY CINEMA ATLANTIC HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY CINEMA ATLANTIC HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998034
+#EXTINF:-1 tvg-id="" tvg-name="DE: Sky Comedy" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Sky Comedy
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998035
+#EXTINF:-1 tvg-id="" tvg-name="DE: Sky Replay" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Sky Replay
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998036
+#EXTINF:-1 tvg-id="" tvg-name="DE: Sky Cinema Fun" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Sky Cinema Fun
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998037
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY CINEMA BEST OF FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY CINEMA BEST OF FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998038
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY CINEMA THRILLER FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY CINEMA THRILLER FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998039
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY CINEMA ACTION FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY CINEMA ACTION FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998040
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY CINEMA 1" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY CINEMA 1
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998041
+#EXTINF:-1 tvg-id="" tvg-name="DE: Sky Cinema Premieren +24 FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Sky Cinema Premieren +24 FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998042
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY CINEMA HITS HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY CINEMA HITS HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998043
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY CINEMA EMOTION HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY CINEMA EMOTION HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998044
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY CINEMA COMEDY HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY CINEMA COMEDY HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998045
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY CINEMA +1 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY CINEMA +1 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998046
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY CINEMA CLASSICS HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY CINEMA CLASSICS HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998047
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SELECT 1 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SELECT 1 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998048
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SELECT 2 FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SELECT 2 FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998049
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SELECT 3 FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SELECT 3 FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998050
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SELECT 4 FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SELECT 4 FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998051
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SELECT 5 FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SELECT 5 FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998052
+#EXTINF:-1 tvg-id="" tvg-name="DE: Sky Select 6 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Sky Select 6 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998053
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SELECT 7 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SELECT 7 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998054
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SELECT 8 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SELECT 8 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998055
+#EXTINF:-1 tvg-id="" tvg-name="DE: Sky Select 9 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Sky Select 9 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998056
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SELECT 10 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SELECT 10 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998057
+#EXTINF:-1 tvg-id="" tvg-name="DE: EAGLE CINEMA ABENTEUER FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: EAGLE CINEMA ABENTEUER FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998058
+#EXTINF:-1 tvg-id="" tvg-name="DE: EAGLE CINEMA DRAMA FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: EAGLE CINEMA DRAMA FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998059
+#EXTINF:-1 tvg-id="" tvg-name="DE: EAGLE CINEMA 007 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: EAGLE CINEMA 007 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998060
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SERIEN & SHOWS FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SERIEN & SHOWS FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998061
+#EXTINF:-1 tvg-id="" tvg-name="â­â­â­ DOCUMENTARY â­â­â­" tvg-logo="" group-title="🇩🇪 | ĐỨC",â­â­â­ DOCUMENTARY â­â­â­
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998062
+#EXTINF:-1 tvg-id="" tvg-name="DE: ARTE HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: ARTE HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998063
+#EXTINF:-1 tvg-id="" tvg-name="DE: ANIMAL PLANET HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: ANIMAL PLANET HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998064
+#EXTINF:-1 tvg-id="" tvg-name="DE: BON GUSTO HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: BON GUSTO HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998065
+#EXTINF:-1 tvg-id="" tvg-name="DE: Crime+Investigation" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Crime+Investigation
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998066
+#EXTINF:-1 tvg-id="" tvg-name="DE: DISCOVERY FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: DISCOVERY FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998067
+#EXTINF:-1 tvg-id="" tvg-name="DE: DISCOVERY CHANNEL HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: DISCOVERY CHANNEL HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998068
+#EXTINF:-1 tvg-id="" tvg-name="DE: HGTV" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: HGTV
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998069
+#EXTINF:-1 tvg-id="" tvg-name="DE: HISTORY FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: HISTORY FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998070
+#EXTINF:-1 tvg-id="" tvg-name="DE: KABEL 1 DOC HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: KABEL 1 DOC HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998071
+#EXTINF:-1 tvg-id="" tvg-name="DE: NATIONAL GEOGRAPHIC HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: NATIONAL GEOGRAPHIC HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998072
+#EXTINF:-1 tvg-id="" tvg-name="DE: NAT GEO WILD FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: NAT GEO WILD FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998073
+#EXTINF:-1 tvg-id="" tvg-name="DE: N24 Doku HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: N24 Doku HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998074
+#EXTINF:-1 tvg-id="" tvg-name="DE: Sky Documentaries" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Sky Documentaries
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998075
+#EXTINF:-1 tvg-id="" tvg-name="DE: Sky Nature" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Sky Nature
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998076
+#EXTINF:-1 tvg-id="" tvg-name="DE: SONNENKLAR TV FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SONNENKLAR TV FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998077
+#EXTINF:-1 tvg-id="" tvg-name="DE: Servus TV HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Servus TV HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998078
+#EXTINF:-1 tvg-id="" tvg-name="DE: SPIEGEL GESCHICHTE" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SPIEGEL GESCHICHTE
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998079
+#EXTINF:-1 tvg-id="" tvg-name="DE: SPIEGEL TV WISSEN" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SPIEGEL TV WISSEN
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998080
+#EXTINF:-1 tvg-id="" tvg-name="DE: WAIDWERK" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: WAIDWERK
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998081
+#EXTINF:-1 tvg-id="" tvg-name="DE: Welt der Wunder" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Welt der Wunder
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998082
+#EXTINF:-1 tvg-id="" tvg-name="DE: ZDF INFO HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: ZDF INFO HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998083
+#EXTINF:-1 tvg-id="" tvg-name="â­â­â­ KIDS â­â­â­" tvg-logo="" group-title="🇩🇪 | ĐỨC",â­â­â­ KIDS â­â­â­
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998084
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY DISNEY CINEMAGIC" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY DISNEY CINEMAGIC
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998085
+#EXTINF:-1 tvg-id="" tvg-name="DE: BOOMERANG HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: BOOMERANG HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998086
+#EXTINF:-1 tvg-id="" tvg-name="DE: CARTOON NETWORK HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: CARTOON NETWORK HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998087
+#EXTINF:-1 tvg-id="" tvg-name="DE: DISNEY CHANNEL HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: DISNEY CHANNEL HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998088
+#EXTINF:-1 tvg-id="" tvg-name="DE: Disney Channel HEVC" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Disney Channel HEVC
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998089
+#EXTINF:-1 tvg-id="" tvg-name="DE: DISNEY CINEMAGIC HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: DISNEY CINEMAGIC HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998090
+#EXTINF:-1 tvg-id="" tvg-name="DE: JUNIOR" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: JUNIOR
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998091
+#EXTINF:-1 tvg-id="" tvg-name="DE: KIKA HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: KIKA HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998092
+#EXTINF:-1 tvg-id="" tvg-name="DE: NICK FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: NICK FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998093
+#EXTINF:-1 tvg-id="" tvg-name="DE: NICK JR" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: NICK JR
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998094
+#EXTINF:-1 tvg-id="" tvg-name="DE: Nicktoons" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Nicktoons
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998095
+#EXTINF:-1 tvg-id="" tvg-name="DE: Super RTL HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Super RTL HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998096
+#EXTINF:-1 tvg-id="" tvg-name="DE: TOGGO PLUS" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: TOGGO PLUS
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998097
+#EXTINF:-1 tvg-id="" tvg-name="DE: TOGGO TV HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: TOGGO TV HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998098
+#EXTINF:-1 tvg-id="" tvg-name="â­â­â­ SPORTS â­â­â­" tvg-logo="" group-title="🇩🇪 | ĐỨC",â­â­â­ SPORTS â­â­â­
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998099
+#EXTINF:-1 tvg-id="" tvg-name="DE: SPORT1 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SPORT1 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998100
+#EXTINF:-1 tvg-id="" tvg-name="DE: SPORT 1+ HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SPORT 1+ HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998101
+#EXTINF:-1 tvg-id="" tvg-name="DE: eSPORTS1" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: eSPORTS1
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998102
+#EXTINF:-1 tvg-id="" tvg-name="DE: EUROSPORT 1 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: EUROSPORT 1 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998103
+#EXTINF:-1 tvg-id="" tvg-name="DE: Eurosport 2 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Eurosport 2 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998104
+#EXTINF:-1 tvg-id="" tvg-name="DE: EUROSPORT 2 EXTRA FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: EUROSPORT 2 EXTRA FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998105
+#EXTINF:-1 tvg-id="" tvg-name="DE: FC Bayern TV HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: FC Bayern TV HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998106
+#EXTINF:-1 tvg-id="" tvg-name="DE: Motorvision TV" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Motorvision TV
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998107
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SPORT AUSTRIA HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SPORT AUSTRIA HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998108
+#EXTINF:-1 tvg-id="" tvg-name="DE: Sky Sport Austria 1 FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Sky Sport Austria 1 FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998109
+#EXTINF:-1 tvg-id="" tvg-name="DE: Sky Sport Austria 2 FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Sky Sport Austria 2 FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998110
+#EXTINF:-1 tvg-id="" tvg-name="DE: Sky Sport Austria 3 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Sky Sport Austria 3 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998111
+#EXTINF:-1 tvg-id="" tvg-name="DE: Sky Sport Austria 4 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Sky Sport Austria 4 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998112
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SPORT F1" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SPORT F1
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998113
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SPORT 1 FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SPORT 1 FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998114
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SPORT 1 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SPORT 1 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998115
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SPORT 2 FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SPORT 2 FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998116
+#EXTINF:-1 tvg-id="" tvg-name="DE:  Sky Sport 2 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE:  Sky Sport 2 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998117
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SPORT 3  HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SPORT 3  HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998118
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SPORT 4 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SPORT 4 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998119
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SPORT 5 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SPORT 5 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998120
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SPORT 6 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SPORT 6 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998121
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SPORT 7 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SPORT 7 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998122
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SPORT 8 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SPORT 8 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998123
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SPORT 9 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SPORT 9 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998124
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SPORT 10 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SPORT 10 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998125
+#EXTINF:-1 tvg-id="" tvg-name="DE: SportDigital Fussball FHD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SportDigital Fussball FHD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998126
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY BUNDESLIGA 1 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY BUNDESLIGA 1 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998127
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY BUNDESLIGA 2 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY BUNDESLIGA 2 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998128
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY BUNDESLIGA 3 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY BUNDESLIGA 3 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998129
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY BUNDESLIGA 4 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY BUNDESLIGA 4 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998130
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY BUNDESLIGA 5 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY BUNDESLIGA 5 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998131
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY BUNDESLIGA 6 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY BUNDESLIGA 6 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998132
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY BUNDESLIGA 7 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY BUNDESLIGA 7 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998133
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY BUNDESLIGA 8 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY BUNDESLIGA 8 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998134
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY BUNDESLIGA 10 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY BUNDESLIGA 10 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998135
+#EXTINF:-1 tvg-id="" tvg-name="DE: Telekom Eishockey 1 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Telekom Eishockey 1 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998136
+#EXTINF:-1 tvg-id="" tvg-name="DE: Telekom Eishockey 2 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Telekom Eishockey 2 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998137
+#EXTINF:-1 tvg-id="" tvg-name="DE: Telekom Eishockey 3 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Telekom Eishockey 3 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998138
+#EXTINF:-1 tvg-id="" tvg-name="DE: Telekom Eishockey 4 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Telekom Eishockey 4 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998139
+#EXTINF:-1 tvg-id="" tvg-name="DE: Telekom Eishockey 5 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Telekom Eishockey 5 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998140
+#EXTINF:-1 tvg-id="" tvg-name="DE: Telekom Eishockey 6 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Telekom Eishockey 6 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998141
+#EXTINF:-1 tvg-id="" tvg-name="DE: Telekom Eishockey 7 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Telekom Eishockey 7 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998142
+#EXTINF:-1 tvg-id="" tvg-name="DE: Telekom 3 Bundesliga 1" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Telekom 3 Bundesliga 1
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998143
+#EXTINF:-1 tvg-id="" tvg-name="DE: TELEKOM 3 BUNDESLIGA 2" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: TELEKOM 3 BUNDESLIGA 2
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998144
+#EXTINF:-1 tvg-id="" tvg-name="DE: Telekom 3 Bundesliga 3" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Telekom 3 Bundesliga 3
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998145
+#EXTINF:-1 tvg-id="" tvg-name="DE: Telekom 3 Bundesliga 4" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Telekom 3 Bundesliga 4
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998146
+#EXTINF:-1 tvg-id="" tvg-name="DE: Telekom 3 Bundesliga 5" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Telekom 3 Bundesliga 5
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998147
+#EXTINF:-1 tvg-id="" tvg-name="DE: TELEKOM 3 BUNDESLIGA 6" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: TELEKOM 3 BUNDESLIGA 6
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998148
+#EXTINF:-1 tvg-id="" tvg-name="DE: TELEKOM 3 BUNDESLIGA 7" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: TELEKOM 3 BUNDESLIGA 7
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998149
+#EXTINF:-1 tvg-id="" tvg-name="DE: TELEKOM 3 BUNDESLIGA 8" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: TELEKOM 3 BUNDESLIGA 8
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998150
+#EXTINF:-1 tvg-id="" tvg-name="DE | TELEKOM BASKETBALL 1 (ONLY EVENT)" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE | TELEKOM BASKETBALL 1 (ONLY EVENT)
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998151
+#EXTINF:-1 tvg-id="" tvg-name="DE | TELEKOM BASKETBALL 2 (ONLY EVENT)" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE | TELEKOM BASKETBALL 2 (ONLY EVENT)
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998152
+#EXTINF:-1 tvg-id="" tvg-name="DE | TELEKOM BASKETBALL 3 (ONLY EVENT)" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE | TELEKOM BASKETBALL 3 (ONLY EVENT)
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998153
+#EXTINF:-1 tvg-id="" tvg-name="DE | TELEKOM BASKETBALL 4 (ONLY EVENT)" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE | TELEKOM BASKETBALL 4 (ONLY EVENT)
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998154
+#EXTINF:-1 tvg-id="" tvg-name="DE | TELEKOM BASKETBALL 5 (ONLY EVENT)" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE | TELEKOM BASKETBALL 5 (ONLY EVENT)
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998155
+#EXTINF:-1 tvg-id="" tvg-name="DE | TELEKOM BASKETBALL 6 (ONLY EVENT)" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE | TELEKOM BASKETBALL 6 (ONLY EVENT)
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998156
+#EXTINF:-1 tvg-id="" tvg-name="DE | TELEKOM BASKETBALL 7 (ONLY EVENT)" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE | TELEKOM BASKETBALL 7 (ONLY EVENT)
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998157
+#EXTINF:-1 tvg-id="" tvg-name="DE | TELEKOM BASKETBALL 8 (ONLY EVENT)" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE | TELEKOM BASKETBALL 8 (ONLY EVENT)
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998158
+#EXTINF:-1 tvg-id="" tvg-name="â­â­â­ MUSiC â­â­â­" tvg-logo="" group-title="🇩🇪 | ĐỨC",â­â­â­ MUSiC â­â­â­
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998159
+#EXTINF:-1 tvg-id="" tvg-name="DE: DELUXE MUSIC HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: DELUXE MUSIC HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998160
+#EXTINF:-1 tvg-id="" tvg-name="DE: JUKEBOX HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: JUKEBOX HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998161
+#EXTINF:-1 tvg-id="" tvg-name="DE: MTV HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: MTV HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998162
+#EXTINF:-1 tvg-id="" tvg-name="DE: MTV DANCE" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: MTV DANCE
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998163
+#EXTINF:-1 tvg-id="" tvg-name="DE: MTV MUSIC 24" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: MTV MUSIC 24
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998164
+#EXTINF:-1 tvg-id="" tvg-name="DE: Schlager Deluxe" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: Schlager Deluxe
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998165
+#EXTINF:-1 tvg-id="" tvg-name="â­â­â­ NEWS â­â­â­" tvg-logo="" group-title="🇩🇪 | ĐỨC",â­â­â­ NEWS â­â­â­
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998166
+#EXTINF:-1 tvg-id="" tvg-name="DE: EURONEWS HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: EURONEWS HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998167
+#EXTINF:-1 tvg-id="" tvg-name="DE: DW HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: DW HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998168
+#EXTINF:-1 tvg-id="" tvg-name="DE: NTV HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: NTV HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998169
+#EXTINF:-1 tvg-id="" tvg-name="DE: PHOENIX HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: PHOENIX HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998170
+#EXTINF:-1 tvg-id="" tvg-name="DE: SKY SPORTS NEWS HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: SKY SPORTS NEWS HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998171
+#EXTINF:-1 tvg-id="" tvg-name="DE: TAGESSCHAU 24 HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: TAGESSCHAU 24 HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998172
+#EXTINF:-1 tvg-id="" tvg-name="DE: WELT HD" tvg-logo="" group-title="🇩🇪 | ĐỨC",DE: WELT HD
+http://teeveetv.one:2052/GfTvTeStLiNe882610/n6pJUr5BkwKL/998173
 
 
 #----------------France-----------------
